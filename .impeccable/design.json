@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-04T17:49:46Z",
+  "generatedAt": "2026-08-04T21:00:00Z",
   "title": "Design System: Wort für Wort",
   "extensions": {
     "colorMeta": {
@@ -14,104 +14,112 @@
         "role": "neutral",
         "displayName": "Aged Paper",
         "canonical": "#e9e1d2",
-        "tonalRamp": ["oklch(15% 0.022 83.3)", "oklch(27% 0.022 83.3)", "oklch(39% 0.022 83.3)", "oklch(51% 0.022 83.3)", "oklch(63% 0.022 83.3)", "oklch(75% 0.022 83.3)", "oklch(87% 0.022 83.3)", "oklch(95% 0.022 83.3)"]
+        "tonalRamp": ["oklch(15% 0.026 87)", "oklch(27% 0.026 87)", "oklch(39% 0.026 87)", "oklch(51% 0.026 87)", "oklch(63% 0.026 87)", "oklch(75% 0.026 87)", "oklch(87% 0.026 87)", "oklch(95% 0.026 87)"]
       },
       "printers-black": {
         "role": "neutral",
         "displayName": "Printer's Black",
         "canonical": "#171713",
-        "tonalRamp": ["oklch(15% 0.008 107.1)", "oklch(27% 0.008 107.1)", "oklch(39% 0.008 107.1)", "oklch(51% 0.008 107.1)", "oklch(63% 0.008 107.1)", "oklch(75% 0.008 107.1)", "oklch(87% 0.008 107.1)", "oklch(95% 0.008 107.1)"]
+        "tonalRamp": ["oklch(15% 0.008 100)", "oklch(27% 0.008 100)", "oklch(39% 0.008 100)", "oklch(51% 0.008 100)", "oklch(63% 0.008 100)", "oklch(75% 0.008 100)", "oklch(87% 0.008 100)", "oklch(95% 0.008 100)"]
       },
       "soft-graphite": {
         "role": "neutral",
         "displayName": "Soft Graphite",
         "canonical": "#6d685f",
-        "tonalRamp": ["oklch(15% 0.015 82.4)", "oklch(27% 0.015 82.4)", "oklch(39% 0.015 82.4)", "oklch(51% 0.015 82.4)", "oklch(63% 0.015 82.4)", "oklch(75% 0.015 82.4)", "oklch(87% 0.015 82.4)", "oklch(95% 0.015 82.4)"]
-      },
-      "vermilion-ink": {
-        "role": "primary",
-        "displayName": "Vermilion Ink",
-        "canonical": "#c9362b",
-        "tonalRamp": ["oklch(15% 0.186 28.8)", "oklch(27% 0.186 28.8)", "oklch(39% 0.186 28.8)", "oklch(51% 0.186 28.8)", "oklch(63% 0.186 28.8)", "oklch(75% 0.186 28.8)", "oklch(87% 0.186 28.8)", "oklch(95% 0.186 28.8)"]
-      },
-      "deep-vermilion": {
-        "role": "primary",
-        "displayName": "Deep Vermilion",
-        "canonical": "#98261e",
-        "tonalRamp": ["oklch(15% 0.151 28.7)", "oklch(27% 0.151 28.7)", "oklch(39% 0.151 28.7)", "oklch(51% 0.151 28.7)", "oklch(63% 0.151 28.7)", "oklch(75% 0.151 28.7)", "oklch(87% 0.151 28.7)", "oklch(95% 0.151 28.7)"]
-      },
-      "berlin-blue": {
-        "role": "secondary",
-        "displayName": "Berlin Blue",
-        "canonical": "#275ba8",
-        "tonalRamp": ["oklch(15% 0.136 258.4)", "oklch(27% 0.136 258.4)", "oklch(39% 0.136 258.4)", "oklch(51% 0.136 258.4)", "oklch(63% 0.136 258.4)", "oklch(75% 0.136 258.4)", "oklch(87% 0.136 258.4)", "oklch(95% 0.136 258.4)"]
-      },
-      "classroom-ochre": {
-        "role": "secondary",
-        "displayName": "Classroom Ochre",
-        "canonical": "#e7b72b",
-        "tonalRamp": ["oklch(15% 0.153 88.0)", "oklch(27% 0.153 88.0)", "oklch(39% 0.153 88.0)", "oklch(51% 0.153 88.0)", "oklch(63% 0.153 88.0)", "oklch(75% 0.153 88.0)", "oklch(87% 0.153 88.0)", "oklch(95% 0.153 88.0)"]
-      },
-      "classroom-ochre-pale": {
-        "role": "secondary",
-        "displayName": "Pale Classroom Ochre",
-        "canonical": "#fff6d8",
-        "tonalRamp": ["oklch(15% 0.040 93.2)", "oklch(27% 0.040 93.2)", "oklch(39% 0.040 93.2)", "oklch(51% 0.040 93.2)", "oklch(63% 0.040 93.2)", "oklch(75% 0.040 93.2)", "oklch(87% 0.040 93.2)", "oklch(95% 0.040 93.2)"]
-      },
-      "study-green": {
-        "role": "tertiary",
-        "displayName": "Study Green",
-        "canonical": "#2f745b",
-        "tonalRamp": ["oklch(15% 0.081 166.5)", "oklch(27% 0.081 166.5)", "oklch(39% 0.081 166.5)", "oklch(51% 0.081 166.5)", "oklch(63% 0.081 166.5)", "oklch(75% 0.081 166.5)", "oklch(87% 0.081 166.5)", "oklch(95% 0.081 166.5)"]
+        "tonalRamp": ["oklch(15% 0.011 87)", "oklch(27% 0.011 87)", "oklch(39% 0.011 87)", "oklch(51% 0.011 87)", "oklch(63% 0.011 87)", "oklch(75% 0.011 87)", "oklch(87% 0.011 87)", "oklch(95% 0.011 87)"]
       },
       "rule-gray": {
         "role": "neutral",
         "displayName": "Rule Gray",
         "canonical": "#c9c0b0",
-        "tonalRamp": ["oklch(15% 0.024 82.1)", "oklch(27% 0.024 82.1)", "oklch(39% 0.024 82.1)", "oklch(51% 0.024 82.1)", "oklch(63% 0.024 82.1)", "oklch(75% 0.024 82.1)", "oklch(87% 0.024 82.1)", "oklch(95% 0.024 82.1)"]
+        "tonalRamp": ["oklch(15% 0.019 85)", "oklch(27% 0.019 85)", "oklch(39% 0.019 85)", "oklch(51% 0.019 85)", "oklch(63% 0.019 85)", "oklch(75% 0.019 85)", "oklch(87% 0.019 85)", "oklch(95% 0.019 85)"]
       },
       "clean-sheet": {
         "role": "neutral",
         "displayName": "Clean Sheet",
         "canonical": "#fffdf7",
-        "tonalRamp": ["oklch(15% 0.008 91.5)", "oklch(27% 0.008 91.5)", "oklch(39% 0.008 91.5)", "oklch(51% 0.008 91.5)", "oklch(63% 0.008 91.5)", "oklch(75% 0.008 91.5)", "oklch(87% 0.008 91.5)", "oklch(95% 0.008 91.5)"]
+        "tonalRamp": ["oklch(15% 0.009 95)", "oklch(27% 0.009 95)", "oklch(39% 0.009 95)", "oklch(51% 0.009 95)", "oklch(63% 0.009 95)", "oklch(75% 0.009 95)", "oklch(87% 0.009 95)", "oklch(95% 0.009 95)"]
+      },
+      "vermilion-ink": {
+        "role": "primary",
+        "displayName": "Vermilion Ink",
+        "canonical": "#c9362b",
+        "tonalRamp": ["oklch(15% 0.17 28.5)", "oklch(27% 0.17 28.5)", "oklch(39% 0.17 28.5)", "oklch(51% 0.17 28.5)", "oklch(63% 0.17 28.5)", "oklch(75% 0.17 28.5)", "oklch(87% 0.17 28.5)", "oklch(95% 0.17 28.5)"]
+      },
+      "deep-vermilion": {
+        "role": "primary",
+        "displayName": "Deep Vermilion",
+        "canonical": "#98261e",
+        "tonalRamp": ["oklch(15% 0.155 29)", "oklch(27% 0.155 29)", "oklch(39% 0.155 29)", "oklch(51% 0.155 29)", "oklch(63% 0.155 29)", "oklch(75% 0.155 29)", "oklch(87% 0.155 29)", "oklch(95% 0.155 29)"]
+      },
+      "berlin-blue": {
+        "role": "secondary",
+        "displayName": "Berlin Blue",
+        "canonical": "#275ba8",
+        "tonalRamp": ["oklch(15% 0.135 259)", "oklch(27% 0.135 259)", "oklch(39% 0.135 259)", "oklch(51% 0.135 259)", "oklch(63% 0.135 259)", "oklch(75% 0.135 259)", "oklch(87% 0.135 259)", "oklch(95% 0.135 259)"]
+      },
+      "classroom-ochre": {
+        "role": "secondary",
+        "displayName": "Classroom Ochre",
+        "canonical": "#e7b72b",
+        "tonalRamp": ["oklch(15% 0.145 88)", "oklch(27% 0.145 88)", "oklch(39% 0.145 88)", "oklch(51% 0.145 88)", "oklch(63% 0.145 88)", "oklch(75% 0.145 88)", "oklch(87% 0.145 88)", "oklch(95% 0.145 88)"]
+      },
+      "classroom-ochre-pale": {
+        "role": "secondary",
+        "displayName": "Pale Classroom Ochre",
+        "canonical": "#fff6d8",
+        "tonalRamp": ["oklch(15% 0.045 93)", "oklch(27% 0.045 93)", "oklch(39% 0.045 93)", "oklch(51% 0.045 93)", "oklch(63% 0.045 93)", "oklch(75% 0.045 93)", "oklch(87% 0.045 93)", "oklch(95% 0.045 93)"]
+      },
+      "study-green": {
+        "role": "tertiary",
+        "displayName": "Study Green",
+        "canonical": "#2f745b",
+        "tonalRamp": ["oklch(15% 0.075 163)", "oklch(27% 0.075 163)", "oklch(39% 0.075 163)", "oklch(51% 0.075 163)", "oklch(63% 0.075 163)", "oklch(75% 0.075 163)", "oklch(87% 0.075 163)", "oklch(95% 0.075 163)"]
       }
     },
     "typographyMeta": {
-      "display": { "displayName": "Editorial Display", "purpose": "Balanced home-page hero statements, capped at 6rem." },
-      "poster-data": { "displayName": "Poster Data", "purpose": "Oversized numeric teaching-poster graphics only." },
-      "page-title": { "displayName": "Page Title", "purpose": "Inner-page titles and long legal headings." },
-      "headline": { "displayName": "Editorial Headline", "purpose": "Major section headings." },
-      "feature": { "displayName": "Feature Type", "purpose": "Chapter displays, flashcards, quotations, and completion moments." },
-      "title": { "displayName": "Workshop Title", "purpose": "Cards, quiz words, popovers, and drawers." },
-      "reading": { "displayName": "Story Reading", "purpose": "Sustained German prose and learning lines." },
-      "word": { "displayName": "Vocabulary Word", "purpose": "Compact German words in lists and mobile data states." },
-      "lede": { "displayName": "Literary Lede", "purpose": "Introductory and explanatory serif copy." },
-      "body-large": { "displayName": "Large Body", "purpose": "Prominent supporting explanations and revealed answers." },
-      "body": { "displayName": "Body", "purpose": "Ordinary interface and explanatory copy." },
-      "support": { "displayName": "Supporting Copy", "purpose": "Translations, definitions, hints, and secondary prose." },
-      "control": { "displayName": "Control", "purpose": "Navigation, buttons, chips, and compact metadata." },
-      "label": { "displayName": "Workshop Label", "purpose": "Progress and structural labels." },
-      "micro": { "displayName": "Micro Label", "purpose": "Dense state stamps with strong weight and contrast." }
+      "display": { "displayName": "Display", "purpose": "The homepage specimen heading. The ceiling of the ramp; one per page at most." },
+      "page-title": { "displayName": "Page Title", "purpose": "Inner-page h1." },
+      "headline": { "displayName": "Headline", "purpose": "Major section headings." },
+      "feature": { "displayName": "Feature", "purpose": "Course-chapter titles, manifesto quotation, flashcard word, finish panels, lead tool name." },
+      "title": { "displayName": "Title", "purpose": "Annotation-plate word, popover word, focus word, quiz word, drawer and chapter headings." },
+      "reading": { "displayName": "Reading", "purpose": "Every line of German prose. 62ch measure (46ch in the specimen), hyphens auto, lang=de." },
+      "data": { "displayName": "Data", "purpose": "Recognition-board statistics; serif numerals in tabular lining figures." },
+      "word": { "displayName": "Word", "purpose": "Collected-word entries in the vocabulary drawer." },
+      "lede": { "displayName": "Lede", "purpose": "Reading-scale supporting step; currently carries the resume banner's dismiss control." },
+      "body-large": { "displayName": "Body Large", "purpose": "Glosses, page-head intros, flashcard details, empty states." },
+      "body": { "displayName": "Body", "purpose": "Default interface prose and board tiles." },
+      "support": { "displayName": "Support", "purpose": "Definitions, hints, notices, settings copy." },
+      "control": { "displayName": "Control", "purpose": "Navigation links, pills, chips, metadata, contents summary." },
+      "label": { "displayName": "Label", "purpose": "Button and action text; uppercase, 0.1em tracked." },
+      "micro": { "displayName": "Micro", "purpose": "Slugs, structural labels, stamps, definition terms. The smallest type in the product." }
     },
     "shadows": [
-      { "name": "button-lift", "value": "4px 4px 0 #171713", "purpose": "Hover feedback for standard outlined controls." },
-      { "name": "compact-plate", "value": "5px 5px 0 #171713", "purpose": "Persistent floating vocabulary action." },
-      { "name": "panel-plate", "value": "8px 8px 0 #171713", "purpose": "Sticky quiz and task panels." },
-      { "name": "poster-plate", "value": "12px 12px 0 #171713", "purpose": "Large expressive poster objects." },
-      { "name": "blue-card-plate", "value": "10px 10px 0 #275ba8", "purpose": "Flashcards and selected learning artifacts." },
-      { "name": "ambient-overlay", "value": "0 18px 45px rgba(32, 28, 20, .12)", "purpose": "Temporary word popovers." },
-      { "name": "drawer-shadow", "value": "-18px 0 50px rgba(23, 23, 19, .2)", "purpose": "Off-canvas vocabulary drawer." }
+      { "name": "control-lift", "value": "4px 4px 0 #171713", "purpose": "Hover and focus-visible on buttons, pills, chips; always paired with translate(-2px,-2px)." },
+      { "name": "control-lift-primary", "value": "4px 4px 0 #98261e", "purpose": "The primary button's hover offset, under its vermilion field." },
+      { "name": "tool-lift", "value": "6px 6px 0 #171713", "purpose": "Homepage tool cards on hover and focus, with translate(-3px,-3px)." },
+      { "name": "vocab-plate", "value": "5px 5px 0 #171713", "purpose": "Floating vocabulary button at rest; 7px 7px 0 on hover." },
+      { "name": "annotation-plate", "value": "8px 8px 0 #171713", "purpose": "Homepage annotation plate and sticky quiz panel. Steps to 6px at 980px and 5px at 680px." },
+      { "name": "attention-plate", "value": "6px 6px 0 #e7b72b", "purpose": "Resume banner on pale ochre." },
+      { "name": "completion-plate", "value": "10px 10px 0 #e7b72b", "purpose": "Course-finish and board-finish panels on Berlin Blue." },
+      { "name": "flashcard-plate", "value": "10px 10px 0 #275ba8", "purpose": "The flashcard." },
+      { "name": "ambient-overlay", "value": "0 18px 45px rgba(32, 28, 20, .12)", "purpose": "The word popover only; one of only two blurred shadows in the product." },
+      { "name": "drawer-shadow", "value": "-18px 0 50px rgba(23, 23, 19, .2)", "purpose": "The off-canvas vocabulary drawer only." }
     ],
     "motion": [
-      { "name": "control-lift", "value": "transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, color 0.16s ease", "purpose": "Fast physical feedback on buttons." },
-      { "name": "surface-shift", "value": "background 0.18s ease", "purpose": "Quiet card and surface state changes." },
-      { "name": "graphic-turn", "value": "transform 0.25s ease", "purpose": "Geometric card artwork movement." },
-      { "name": "drawer-entry", "value": "transform 0.3s cubic-bezier(.22, 1, .36, 1)", "purpose": "Decisive off-canvas panel entry." }
+      { "name": "control-transition", "value": "transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease", "purpose": "Buttons, pills, chips." },
+      { "name": "icon-transition", "value": "background .14s ease, color .14s ease, border-color .14s ease", "purpose": "Icon buttons; color only, never movement." },
+      { "name": "tool-transition", "value": "background .18s ease, transform .18s ease, box-shadow .18s ease", "purpose": "Homepage tool cards." },
+      { "name": "tile-transition", "value": "background .13s, color .13s, box-shadow .13s", "purpose": "Recognition-board tiles." },
+      { "name": "drawer-ease", "value": "transform .3s cubic-bezier(.22, 1, .36, 1)", "purpose": "Vocabulary drawer slide and print-shop mark movement." },
+      { "name": "popover-entry", "value": "pop-in .16s ease forwards (16px rise)", "purpose": "Word popover entry." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce) { animation-duration: .01ms; transition-duration: .01ms; scroll-behavior: auto }", "purpose": "Global honour of the reduced-motion preference." }
     ],
     "breakpoints": [
-      { "name": "stack", "value": "900px" },
-      { "name": "compact", "value": "680px" }
+      { "name": "specimen-stack", "value": "980px" },
+      { "name": "tools-stack", "value": "900px" },
+      { "name": "compact", "value": "680px" },
+      { "name": "coarse-pointer", "value": "(pointer: coarse)" }
     ]
   },
   "components": [
@@ -119,98 +127,141 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The decisive action: dark ink at rest, Vermilion Ink when lifted.",
-      "html": "<button class=\"ds-btn-primary\">BEGIN READING →</button>",
-      "css": ".ds-btn-primary { min-height: 48px; padding: 13px 19px; border: 1px solid var(--ink, #171713); border-radius: 0; background: var(--ink, #171713); color: var(--white, #fffdf7); font: 700 13px/1.2 var(--sans, sans-serif); letter-spacing: .04em; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease; } .ds-btn-primary:hover { transform: translate(-2px, -2px); background: var(--red, #c9362b); border-color: var(--red, #c9362b); box-shadow: 4px 4px 0 var(--red-dark, #98261e); } .ds-btn-primary:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 3px; } .ds-btn-primary:active { transform: translate(0, 0); box-shadow: none; }"
+      "description": "The single decisive action on a screen: black field, uppercase label, vermilion with a hard offset on hover.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Begin chapter one</a>",
+      "css": ".ds-btn { min-height: 48px; padding: 13px 19px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; border: 1px solid var(--ink, #171713); background: transparent; color: var(--ink, #171713); text-decoration: none; font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: .75rem; font-weight: 800; line-height: 1.2; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease; } .ds-btn-primary { background: var(--ink, #171713); color: var(--white, #fffdf7); } .ds-btn-primary:hover, .ds-btn-primary:focus-visible { background: var(--red, #c9362b); border-color: var(--red, #c9362b); transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--red-dark, #98261e); } .ds-btn-primary:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; }"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "An outlined paper control with the same physical lift as the primary action.",
-      "html": "<button class=\"ds-btn-secondary\">TEST YOUR WORDS</button>",
-      "css": ".ds-btn-secondary { min-height: 48px; padding: 13px 19px; border: 1px solid var(--ink, #171713); border-radius: 0; background: transparent; color: var(--ink, #171713); font: 700 13px/1.2 var(--sans, sans-serif); letter-spacing: .04em; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease; } .ds-btn-secondary:hover { transform: translate(-2px, -2px); background: var(--white, #fffdf7); box-shadow: 4px 4px 0 var(--ink, #171713); } .ds-btn-secondary:focus-visible { outline: 3px solid var(--red, #c9362b); outline-offset: 3px; } .ds-btn-secondary:active { transform: translate(0, 0); box-shadow: none; }"
+      "description": "Outlined action on paper; same physical lift, black offset, disabled state keeps its shape.",
+      "html": "<button class=\"ds-btn-secondary\" type=\"button\">Play these words</button>",
+      "css": ".ds-btn-secondary { min-height: 48px; padding: 13px 19px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; border: 1px solid var(--ink, #171713); background: transparent; color: var(--ink, #171713); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: .75rem; font-weight: 800; line-height: 1.2; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease; } .ds-btn-secondary:hover, .ds-btn-secondary:focus-visible { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--ink, #171713); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; } .ds-btn-secondary:disabled { opacity: .42; cursor: not-allowed; transform: none; box-shadow: none; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "The only circle in the system. 38px standalone, 30px inline, 44/40px on coarse pointers; marks drawn on the 16px grid at 1.6 stroke.",
+      "html": "<button class=\"ds-icon-btn\" type=\"button\" aria-label=\"Hear die Stadt pronounced\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-linejoin=\"miter\"><path d=\"M2.4 6.1h2.7L8.7 3v10L5.1 9.9H2.4z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M11 5.5a3.5 3.5 0 0 1 0 5\"/><path d=\"M13.2 3.3a6.5 6.5 0 0 1 0 9.4\"/></svg></button> <button class=\"ds-icon-btn ds-icon-btn-on\" type=\"button\" aria-pressed=\"true\" aria-label=\"Star die Stadt for review\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-linejoin=\"miter\"><path d=\"M8 1.9l1.85 3.9 4.15.6-3 3 .7 4.25L8 11.63 4.3 13.65 5 9.4l-3-3 4.15-.6z\"/></svg></button>",
+      "css": ".ds-icon-btn { width: 38px; height: 38px; flex: none; display: inline-grid; place-items: center; border: 1px solid var(--line, #c9c0b0); border-radius: 50%; background: var(--white, #fffdf7); color: var(--red-dark, #98261e); cursor: pointer; transition: background .14s ease, color .14s ease, border-color .14s ease; } .ds-icon-btn:hover { background: var(--ink, #171713); color: #fff; border-color: var(--ink, #171713); } .ds-icon-btn:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; border-color: var(--ink, #171713); } .ds-icon-btn-on { background: var(--yellow, #e7b72b); border-color: var(--yellow, #e7b72b); color: var(--ink, #171713); } .ds-icon-btn:disabled { opacity: .4; cursor: not-allowed; background: var(--white, #fffdf7); color: var(--muted, #6d685f); border-color: var(--line, #c9c0b0); } @media (pointer: coarse) { .ds-icon-btn { width: 44px; height: 44px; } }"
     },
     {
       "name": "Tool Pill",
-      "kind": "button",
-      "description": "A compact reader control that turns Berlin Blue when active.",
-      "html": "<button class=\"ds-tool-pill\">EN SHOW TRANSLATIONS</button>",
-      "css": ".ds-tool-pill { padding: 8px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--white, #fffdf7); color: var(--muted, #6d685f); font: 700 13px/1.2 var(--sans, sans-serif); text-decoration: none; cursor: pointer; } .ds-tool-pill:hover, .ds-tool-pill[aria-pressed=\"true\"] { border-color: var(--blue, #275ba8); background: var(--blue, #275ba8); color: #fff; } .ds-tool-pill:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+      "kind": "chip",
+      "refersTo": "tool-pill",
+      "description": "Reading controls in the ruled course bar; solid Berlin Blue when hovered or active.",
+      "html": "<button class=\"ds-pill\" type=\"button\">Read chapter</button> <button class=\"ds-pill ds-pill-on\" type=\"button\" aria-pressed=\"true\">Auto-speak on</button>",
+      "css": ".ds-pill { min-height: 40px; display: inline-flex; align-items: center; border: 1px solid var(--line, #c9c0b0); background: var(--white, #fffdf7); color: var(--muted, #6d685f); padding: 8px 13px; font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: .8125rem; font-weight: 700; line-height: 1.2; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease, border-color .16s ease; } .ds-pill:hover, .ds-pill-on { color: #fff; border-color: var(--blue, #275ba8); background: var(--blue, #275ba8); } .ds-pill:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--ink, #171713); } .ds-pill:disabled { opacity: .45; cursor: not-allowed; background: var(--white, #fffdf7); color: var(--muted, #6d685f); border-color: var(--line, #c9c0b0); transform: none; box-shadow: none; }"
     },
     {
       "name": "Filter Chip",
       "kind": "chip",
       "refersTo": "chip",
-      "description": "A square filtering control with a solid Vermilion selected state.",
-      "html": "<button class=\"ds-chip\" aria-pressed=\"false\">A2 WORDS</button>",
-      "css": ".ds-chip { padding: 8px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--paper, #f3efe5); color: var(--ink, #171713); font: 700 13px/1.2 var(--sans, sans-serif); cursor: pointer; } .ds-chip:hover { border-color: var(--red, #c9362b); } .ds-chip[aria-pressed=\"true\"] { border-color: var(--red, #c9362b); background: var(--red, #c9362b); color: #fff; } .ds-chip:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+      "description": "Deck filters on paper; the selected chip is a solid vermilion field.",
+      "html": "<button class=\"ds-chip\" type=\"button\">A1</button> <button class=\"ds-chip ds-chip-on\" type=\"button\" aria-pressed=\"true\">Starred</button>",
+      "css": ".ds-chip { min-height: 40px; display: inline-flex; align-items: center; border: 1px solid var(--line, #c9c0b0); background: var(--paper, #f3efe5); color: var(--ink, #171713); padding: 8px 12px; font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: .8125rem; font-weight: 700; line-height: 1.2; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease, border-color .16s ease; } .ds-chip-on { background: var(--red, #c9362b); border-color: var(--red, #c9362b); color: #fff; } .ds-chip:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--ink, #171713); } .ds-chip:disabled { opacity: .45; cursor: not-allowed; }"
     },
     {
-      "name": "Search Field",
+      "name": "Search Input",
       "kind": "input",
       "refersTo": "input",
-      "description": "A plain Clean Sheet field bounded by a quiet printer's rule.",
-      "html": "<label class=\"ds-field\"><span>SEARCH WORDS</span><input type=\"search\" placeholder=\"German or English…\"></label>",
-      "css": ".ds-field { display: grid; gap: 7px; color: var(--muted, #6d685f); font: 800 10px/1.2 var(--sans, sans-serif); letter-spacing: .12em; } .ds-field input { padding: 10px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--white, #fffdf7); color: var(--ink, #171713); font: 400 16px/1.55 var(--sans, sans-serif); } .ds-field input:focus-visible { border-color: var(--red, #c9362b); outline: 2px solid var(--red, #c9362b); outline-offset: 1px; } .ds-field input::placeholder { color: var(--muted, #6d685f); }"
+      "description": "Clean-sheet field on a rule-gray hairline; focus is the global vermilion ring, never a colour-only cue.",
+      "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Search German or English…\" aria-label=\"Search collected words\">",
+      "css": ".ds-input { width: 100%; min-height: 44px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--white, #fffdf7); padding: 10px 12px; color: var(--ink, #171713); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: 1rem; line-height: 1.55; } .ds-input:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; }"
     },
     {
-      "name": "Main Navigation",
+      "name": "Site Navigation",
       "kind": "nav",
-      "description": "A ruled editorial header with a rotated Vermilion printer's mark.",
-      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\"><b>W</b><span>WORT FÜR WORT</span></a><div><a class=\"ds-current\" href=\"#\">READ</a><a href=\"#\">PLAY</a><a href=\"#\">CARDS</a></div></nav>",
-      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 20px; border-bottom: 1px solid var(--line, #c9c0b0); background: var(--paper, #f3efe5); font-family: var(--sans, sans-serif); } .ds-nav a { color: var(--muted, #6d685f); text-decoration: none; } .ds-wordmark { display: inline-flex; align-items: center; gap: 12px; color: var(--ink, #171713) !important; font-size: 13px; font-weight: 700; line-height: 1.2; letter-spacing: .08em; } .ds-wordmark b { width: 34px; height: 34px; display: grid; place-items: center; background: var(--red, #c9362b); color: #fff; transform: rotate(-3deg); font-size: 16px; line-height: 1; } .ds-nav > div { display: flex; gap: 20px; font-size: 13px; font-weight: 700; line-height: 1.2; } .ds-nav > div a { padding-bottom: 3px; border-bottom: 1px solid transparent; } .ds-nav > div a:hover, .ds-nav > div .ds-current { color: var(--ink, #171713); border-color: var(--red, #c9362b); } .ds-nav a:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 3px; }"
+      "refersTo": null,
+      "description": "Ruled editorial header: rotated vermilion mark, tracked wordmark, German route names with English aria-labels. No route is ever hidden.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-wordmark\" href=\"#\" aria-label=\"Wort für Wort home\"><span class=\"ds-wordmark-mark\">W</span><span class=\"ds-wordmark-text\">Wort für Wort</span></a><div class=\"ds-nav-links\"><a href=\"#\" aria-current=\"page\" aria-label=\"Lesen — read the course\">Lesen</a><a href=\"#\" aria-label=\"Wortfeld — the word recognition board\">Wortfeld</a><a href=\"#\" aria-label=\"Karteikarten — flashcards\">Karteikarten</a></div></nav>",
+      "css": ".ds-nav { max-width: 1180px; margin: 0 auto; padding: 22px 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line, #c9c0b0); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; } .ds-wordmark { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink, #171713); } .ds-wordmark-mark { width: 34px; height: 34px; display: grid; place-items: center; color: #fff; background: var(--red, #c9362b); font-weight: 800; font-size: 1rem; line-height: 1; transform: rotate(-3deg); } .ds-wordmark-text { font-size: .8125rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; } .ds-nav-links { display: flex; align-items: center; gap: 20px; font-size: .8125rem; font-weight: 700; } .ds-nav-links a { color: var(--muted, #6d685f); text-decoration: none; border-bottom: 1px solid transparent; padding: 4px 0; } .ds-nav-links a:hover, .ds-nav-links a[aria-current=\"page\"] { color: var(--ink, #171713); border-color: var(--red, #c9362b); } .ds-nav-links a:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; }"
     },
     {
-      "name": "Learning Path Card",
+      "name": "Annotation Plate",
       "kind": "card",
-      "description": "A square editorial route card animated by one bold geometric ink form.",
-      "html": "<a class=\"ds-path-card\" href=\"#\"><span class=\"ds-path-label\">01 · A1 READER</span><i></i><h3>Ein Jahr in Berlin</h3><p>Read a graded story with instant vocabulary help.</p><b>BEGIN CHAPTER ONE →</b></a>",
-      "css": ".ds-path-card { position: relative; min-height: 280px; padding: 28px; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--ink, #171713); background: rgba(255,253,247,.42); color: var(--ink, #171713); text-decoration: none; font-family: var(--sans, sans-serif); transition: background .18s ease; } .ds-path-card:hover { background: var(--white, #fffdf7); } .ds-path-card i { position: absolute; right: -30px; top: 35px; width: 150px; height: 150px; border-radius: 50%; background: var(--red, #c9362b); transition: transform .25s ease; } .ds-path-card:hover i { transform: rotate(12deg) scale(1.06); } .ds-path-label { position: relative; z-index: 1; color: var(--muted, #6d685f); font-size: 11px; font-weight: 800; line-height: 1.2; letter-spacing: .14em; } .ds-path-card h3 { position: relative; z-index: 1; margin: auto 0 10px; font: 500 36px/1.05 var(--serif, Georgia, serif); letter-spacing: -.02em; } .ds-path-card p { position: relative; z-index: 1; max-width: 34ch; margin: 0 0 24px; color: var(--muted, #6d685f); font: 400 16px/1.6 var(--sans, sans-serif); } .ds-path-card b { position: relative; z-index: 1; color: var(--red-dark, #98261e); font-size: 11px; line-height: 1.2; letter-spacing: .1em; } .ds-path-card:focus-visible { outline: 4px solid var(--yellow, #e7b72b); outline-offset: 3px; }"
+      "refersTo": "annotation-plate",
+      "description": "The signature answer surface: clean sheet, 5px ochre top rule, 8px hard black offset, ruled facts list, blue grammar note.",
+      "html": "<aside class=\"ds-plate\" aria-live=\"polite\" aria-label=\"Word explanation\"><div class=\"ds-plate-head\"><span class=\"ds-plate-word\" lang=\"de\">die Stadt</span><span class=\"ds-stamp\">A1</span></div><p class=\"ds-plate-gloss\">the city</p><dl class=\"ds-facts\"><div><dt>Article</dt><dd lang=\"de\">die</dd></div><div><dt>Plural</dt><dd lang=\"de\">die Städte</dd></div></dl><p class=\"ds-plate-note\">Feminine nouns take die in the nominative.</p></aside>",
+      "css": ".ds-plate { padding: 24px 24px 20px; background: var(--white, #fffdf7); border: 1px solid var(--ink, #171713); border-top: 5px solid var(--yellow, #e7b72b); box-shadow: 8px 8px 0 var(--ink, #171713); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; color: var(--ink, #171713); } .ds-plate-head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; flex-wrap: wrap; } .ds-plate-word { font-family: \"Iowan Old Style\", Baskerville, \"Palatino Linotype\", Palatino, Georgia, serif; font-size: 2.25rem; line-height: 1.05; } .ds-stamp { padding: 5px 8px; border: 1px solid currentColor; color: var(--green, #2f745b); font-size: .6875rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; } .ds-plate-gloss { margin: 12px 0 0; font-size: 1.125rem; line-height: 1.45; } .ds-facts { margin: 18px 0 0; padding: 0; border-top: 1px solid var(--line, #c9c0b0); } .ds-facts div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line, #c9c0b0); } .ds-facts dt { color: var(--muted, #6d685f); font-size: .6875rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; } .ds-facts dd { margin: 0; font-family: \"Iowan Old Style\", Baskerville, Palatino, Georgia, serif; font-size: .9375rem; } .ds-plate-note { margin: 14px 0 0; color: var(--blue, #275ba8); font-size: .9375rem; line-height: 1.5; }"
     },
     {
       "name": "Word Popover",
       "kind": "custom",
-      "description": "A dark temporary definition plate topped with Classroom Ochre.",
-      "html": "<aside class=\"ds-popover\"><div><strong>die Geschichte</strong><span>Geschichten · story; history</span></div><button aria-label=\"Play pronunciation\">▶</button><p>Nouns travel with their article and plural.</p></aside>",
-      "css": ".ds-popover { width: min(500px, 90vw); padding: 20px 22px; display: grid; grid-template-columns: 1fr auto; gap: 12px 18px; align-items: center; border-top: 4px solid var(--yellow, #e7b72b); background: var(--ink, #171713); color: var(--white, #fffdf7); box-shadow: 0 18px 45px rgba(32,28,20,.12); } .ds-popover strong { display: block; font: 500 36px/1.05 var(--serif, Georgia, serif); overflow-wrap: anywhere; } .ds-popover span { color: var(--line, #c9c0b0); font: 400 13px/1.45 var(--sans, sans-serif); } .ds-popover p { grid-column: 1 / -1; margin: 0; padding-top: 11px; border-top: 1px solid var(--muted, #6d685f); color: var(--paper-2, #e9e1d2); font: 500 13px/1.55 var(--sans, sans-serif); letter-spacing: .01em; } .ds-popover button { width: 38px; height: 38px; border: 1px solid var(--muted, #6d685f); border-radius: 50%; background: transparent; color: #fff; cursor: pointer; } .ds-popover button:hover { border-color: var(--yellow, #e7b72b); color: var(--yellow, #e7b72b); } .ds-popover button:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+      "refersTo": "word-popover",
+      "description": "The in-reader inverse of the plate: black ground, 4px ochre top rule, the ambient blurred shadow reserved for floating overlays.",
+      "html": "<aside class=\"ds-pop\" aria-live=\"polite\" aria-label=\"Word explanation\"><div><div class=\"ds-pop-word\" lang=\"de\">der Zug</div><div class=\"ds-pop-meta\">the train · A1 · noun · plural: die Züge</div></div><div class=\"ds-pop-note\">Masculine nouns take der in the nominative.</div></aside>",
+      "css": ".ds-pop { width: min(540px, 100%); padding: 20px 22px; display: grid; grid-template-columns: 1fr auto; gap: 12px 18px; align-items: center; background: var(--ink, #171713); color: var(--white, #fffdf7); border-top: 4px solid var(--yellow, #e7b72b); box-shadow: 0 18px 45px rgba(32, 28, 20, .12); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; } .ds-pop-word { font-family: \"Iowan Old Style\", Baskerville, Palatino, Georgia, serif; font-size: 2.25rem; line-height: 1.05; } .ds-pop-meta { margin-top: 4px; color: var(--line, #c9c0b0); font-size: .8125rem; line-height: 1.45; } .ds-pop-note { grid-column: 1 / -1; color: var(--paper-2, #e9e1d2); font-size: .8125rem; font-weight: 500; line-height: 1.55; border-top: 1px solid var(--muted, #6d685f); padding-top: 11px; }"
     },
     {
-      "name": "Flashcard",
-      "kind": "card",
-      "description": "A large Clean Sheet learning plate with a Berlin Blue structural offset.",
-      "html": "<button class=\"ds-flashcard\"><strong>der Anfang</strong><span>die Anfänge · beginning</span><small>TAP TO REVEAL</small></button>",
-      "css": ".ds-flashcard { min-height: 300px; width: min(560px, 90vw); padding: 36px; display: grid; place-items: center; align-content: center; gap: 18px; border: 1px solid var(--ink, #171713); border-radius: 0; background: var(--white, #fffdf7); color: var(--ink, #171713); box-shadow: 10px 10px 0 var(--blue, #275ba8); text-align: center; cursor: pointer; } .ds-flashcard strong { font: 500 clamp(32px, 5vw, 54px)/1.05 var(--serif, Georgia, serif); overflow-wrap: anywhere; } .ds-flashcard span { color: var(--muted, #6d685f); font: 400 18px/1.5 var(--sans, sans-serif); } .ds-flashcard small { color: var(--muted, #6d685f); font: 800 11px/1.2 var(--sans, sans-serif); letter-spacing: .14em; } .ds-flashcard:hover { transform: translate(-2px, -2px); box-shadow: 12px 12px 0 var(--blue, #275ba8); } .ds-flashcard:focus-visible { outline: 4px solid var(--red, #c9362b); outline-offset: 4px; } .ds-flashcard:active { transform: translate(0, 0); box-shadow: 8px 8px 0 var(--blue, #275ba8); }"
+      "name": "Interactive Reading Line",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "German prose at reading scale where every known word is a button. Dotted rule-gray underline at rest, vermilion wash on hover, solid 2px vermilion for a newly reached word.",
+      "html": "<p class=\"ds-line\" lang=\"de\">Mia steht am Fenster und sieht die <button class=\"ds-word ds-word-fresh\" type=\"button\">Stadt</button>. Die <button class=\"ds-word\" type=\"button\">Straße</button> ist voll.</p>",
+      "css": ".ds-line { margin: 0 0 14px; max-width: 62ch; font-family: \"Iowan Old Style\", Baskerville, \"Palatino Linotype\", Palatino, Georgia, serif; font-size: clamp(1.25rem, 3vw, 1.6rem); line-height: 1.8; hyphens: auto; color: var(--ink, #171713); } .ds-word { border: 0; border-bottom: 1px dotted var(--line, #c9c0b0); padding: 1px 0; background: none; color: inherit; font-family: inherit; font-size: inherit; cursor: pointer; } .ds-word:hover, .ds-word:focus-visible { color: var(--red-dark, #98261e); background: rgba(201, 54, 43, .08); border-bottom-color: var(--red, #c9362b); } .ds-word:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 1px; } .ds-word-fresh { color: var(--red-dark, #98261e); border-bottom: 2px solid var(--red, #c9362b); font-weight: 700; }"
+    },
+    {
+      "name": "Board Tile",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Recognition-board cell carrying the one-state-per-word model: paper at rest, ochre current, green known, pale ochre with a 3px inset rule for learning.",
+      "html": "<div class=\"ds-board\"><button class=\"ds-tile\" type=\"button\" lang=\"de\">Fenster</button><button class=\"ds-tile ds-tile-current\" type=\"button\" lang=\"de\">Straße</button><button class=\"ds-tile ds-tile-known\" type=\"button\" lang=\"de\">Stadt<small>known</small></button><button class=\"ds-tile ds-tile-learning\" type=\"button\" lang=\"de\">Zug<small>learning</small></button></div>",
+      "css": ".ds-board { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--ink, #171713); border-left: 1px solid var(--ink, #171713); } .ds-tile { min-height: 82px; border: 0; border-right: 1px solid var(--ink, #171713); border-bottom: 1px solid var(--ink, #171713); background: var(--paper, #f3efe5); color: var(--ink, #171713); cursor: pointer; padding: 8px; font-family: \"Iowan Old Style\", Baskerville, Palatino, Georgia, serif; font-size: 1rem; line-height: 1.25; transition: background .13s, color .13s, box-shadow .13s; } .ds-tile:hover, .ds-tile-current { background: var(--yellow, #e7b72b); } .ds-tile-known { background: var(--green, #2f745b); color: #fff; } .ds-tile-learning { background: var(--yellow-pale, #fff6d8); color: var(--ink, #171713); box-shadow: inset 0 0 0 3px var(--yellow, #e7b72b); } .ds-tile small { display: block; margin-top: 4px; color: inherit; font-family: \"Avenir Next\", Avenir, sans-serif; font-size: .6875rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; } .ds-tile:focus-visible { outline: 2px solid var(--red, #c9362b); outline-offset: 2px; }"
+    },
+    {
+      "name": "Notice Band",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Ochre band that states an unavailability in words — no speech API, no German voice, blocked storage — instead of letting a control fail silently.",
+      "html": "<p class=\"ds-notice\">No German voice is installed on this device, so audio is off.</p>",
+      "css": ".ds-notice { max-width: 760px; margin: 0 auto 16px; padding: 11px 16px; border: 1px solid var(--yellow, #e7b72b); background: var(--yellow-pale, #fff6d8); color: var(--ink, #171713); font-family: \"Avenir Next\", Avenir, \"Century Gothic\", \"Trebuchet MS\", sans-serif; font-size: .9375rem; line-height: 1.5; }"
     }
   ],
   "narrative": {
     "northStar": "The Berlin Print Workshop",
-    "overview": "Wort für Wort should feel like entering a small Berlin print studio where a literary reader, a teaching poster, and a set of hand-operated study tools are being made at the same table. Paper warmth and old-style serif type create a scholarly reading atmosphere; hard rules, compact labels, and saturated blocks of ink keep it active rather than precious.\n\nThe system is tactile, editorial, energetic, and scholarly. It rejects glossy SaaS polish and cartoonish gamification: learning states are communicated through ink, geometry, weight, and physical movement rather than glass effects, inflated rounding, or ornamental reward systems.",
+    "overview": "Wort für Wort is a small print studio where a literary reader, a set of teaching plates, and a few hand-operated study machines are made at the same table. Warm paper stock and old-style serif type carry the German; hard one-pixel rules, tracked compact sans labels, and saturated blocks of ink operate the interface. Nothing glows, nothing floats without reason, and every raised object casts a hard, zero-blur offset the way a pressed sheet does.\n\nThe system is tactile, editorial, and scholarly without being precious. Its type ramp is deliberately capped: the largest step is a 5.25rem serif heading, and there is no poster-scale numeral anywhere in the product. Surfaces earn attention by rule, weight, and ink, not by size. Interface decoration is drawn by hand on the same grid as the icons — circles, rotated squares, triangles — and is always anchored clear of the text column.\n\nIt rejects glossy SaaS polish, glass and gradient, inflated rounding, cartoon gamification, and the hero + metric-strip + three-card landing arrangement the language-learning category defaults to. The homepage is a working page of the reader: real chapter-one German set at reading scale beside a live annotation plate.",
     "keyCharacteristics": [
-      "Warm paper fields with near-black editorial structure.",
-      "Literary serif text paired with compact modernist sans-serif labels.",
-      "Saturated vermilion, blue, ochre, and green used as deliberate ink blocks.",
-      "Square, one-pixel-bordered surfaces with hard offset shadows.",
-      "Circles, squares, and triangles used as print-shop geometry, not decoration for its own sake."
+      "Warm paper field with near-black editorial structure; a hairline center rule runs the full page background.",
+      "Iowan Old Style for every word of German and every expressive heading; Avenir Next for all machinery.",
+      "Four inks — vermilion, blue, ochre, green — each with one semantic job.",
+      "Square corners, one-pixel borders, hard zero-blur offsets; blur only for genuinely floating overlays.",
+      "Hand-drawn 16px-grid SVG icons in exactly two button sizes."
     ],
     "rules": [
-      { "name": "The Limited-Ink Rule", "body": "Paper Cream and Printer's Black carry the page. Saturated colors appear in deliberate blocks or meaningful states; do not blend them into glossy gradients or scatter them as decoration.", "section": "colors" },
-      { "name": "The Story-and-Workshop Rule", "body": "Serif type carries language, narrative, and human-scale meaning. Sans-serif type operates the interface and labels the learning machinery; do not reverse those jobs casually.", "section": "typography" },
-      { "name": "The Structural-Shadow Rule", "body": "Use crisp, zero-blur offsets for objects that feel printed, stacked, or pressed. Use blur only when a temporary overlay physically sits above the entire page.", "section": "elevation" }
+      { "name": "The Limited-Ink Rule", "body": "Paper Cream and Printer's Black establish every screen. Saturated color appears as a deliberate block or a meaningful state; it never blends into a gradient and never decorates.", "section": "colors" },
+      { "name": "The Ink Semantics Rule", "body": "One ink, one job. Vermilion is identity, focus, and new-word ink. Blue is translation and completion. Ochre is attention and in-progress. Green is confirmed knowledge. A word in the \"learning\" state is pale ochre with a 3px ochre inset rule — never vermilion, because vermilion would read as identity.", "section": "colors" },
+      { "name": "The Story-and-Workshop Rule", "body": "Serif carries language, narrative, and human-scale meaning. Sans operates the machine and labels it. Never set a German word in the sans, and never set a button in the serif.", "section": "typography" },
+      { "name": "The Capped-Ramp Rule", "body": "5.25rem is the largest type in the product. There is no poster numeral, no 13rem statistic, and no display face bigger than the page it heads. Scale is earned by rule and ink, not by size.", "section": "typography" },
+      { "name": "The Tabular-Count Rule", "body": "Every number that changes as the learner works — word counts, chapter numerals, progress, speech rate — is set font-variant-numeric: lining-nums tabular-nums so it does not jitter.", "section": "typography" },
+      { "name": "The Structural-Shadow Rule", "body": "Zero-blur offsets for anything that reads as printed, stacked, or pressed. Blur only when the surface is fixed-position and sits above the entire page.", "section": "elevation" },
+      { "name": "The Lift-With-Offset Rule", "body": "A hard shadow never appears alone. Whatever gains an offset also moves up-and-left by the same order (2px for controls, 3px for tool cards, 1px for the vocabulary button), so the object looks lifted rather than outlined.", "section": "elevation" },
+      { "name": "The One-Focus-Language Rule", "body": "Every focusable thing in the product takes the same 2px Vermilion outline at 2px offset, and anything that lifts on hover takes the identical lift on :focus-visible. Keyboard and mouse get the same physical feedback; no component invents its own focus style.", "section": "components" },
+      { "name": "The Two-Size Icon-Button Rule", "body": "38px standalone, 30px inline, 44/40px under a coarse pointer. If a new control seems to need a third size, it needs a different component.", "section": "components" },
+      { "name": "The Drawn-Mark Rule", "body": "Iconography is drawn in-house on the 16px grid and emitted from ICON_PATHS. No emoji, no icon font, no third-party icon package, no <img> icons.", "section": "components" },
+      { "name": "The One-State-Per-Word Rule", "body": "A word is known, learning, or new. Every surface reads that single state from the store; no screen keeps its own idea of a word's status.", "section": "components" }
     ],
     "dos": [
-      "Do let Paper Cream and Printer's Black establish most of every screen.",
-      "Do use the serif for German words, stories, and expressive headings, and the sans-serif for controls and metadata.",
-      "Do use one-pixel rules, square corners, and crisp offset shadows to preserve the print-workshop construction.",
-      "Do reserve Vermilion, Blue, Ochre, and Green for clear hierarchy, information, selection, and learning states.",
-      "Do preserve generous reading line-height and focused 760–820px reading widths."
+      "Do let Paper Cream and Printer's Black establish most of every screen, with saturated ink reserved for state.",
+      "Do set every word of German in Iowan Old Style, tag it lang=\"de\", and give reading prose 1.8 line-height inside a 62ch measure.",
+      "Do keep the ramp capped at 5.25rem and let rules, ink, and weight create hierarchy instead.",
+      "Do pair every hard offset with a matching translate, and give :focus-visible the same lift the mouse gets.",
+      "Do draw new icons on the 16px grid at 1.6 stroke with square caps and add them to ICON_PATHS.",
+      "Do state unavailability in words — an ochre notice band plus disabled controls — rather than letting a control fail silently.",
+      "Do grow tap targets on coarse pointers (44px / 40px) rather than shrinking dense controls."
     ],
     "donts": [
-      "Don't introduce glossy gradients, glassmorphism, inflated rounding, or soft SaaS-style card stacks.",
-      "Don't turn learning progress into cartoon rewards, decorative badges, or confetti.",
-      "Don't use saturated colors interchangeably; each ink has a specific semantic job.",
-      "Don't add ambient shadows to ordinary cards or controls; hard offsets are the default physical language.",
-      "Don't shrink dense mobile controls below comfortable tap targets or remove the reduced-motion behavior."
+      "Don't use emoji, icon fonts, or third-party icon sets anywhere in the interface.",
+      "Don't add a small uppercase eyebrow or kicker above a heading. The heading, the slug rule, or the ruled bar does that work.",
+      "Don't introduce a third icon-button size, a third type family, or a fifth ink.",
+      "Don't spend Vermilion on an ordinary state; it is identity, focus, and new-word ink only.",
+      "Don't put a blurred shadow on anything that isn't fixed-position and floating over the whole page.",
+      "Don't introduce gradients, glass, inflated radii, or a poster-scale numeral.",
+      "Don't turn progress into badges, confetti, or cartoon reward; progress is a count, a rule, and a tile color.",
+      "Don't let print-shop geometry cross the text column, and don't let it capture pointer events.",
+      "Don't replace an inline confirmation with a native confirm() dialog."
     ]
   }
 }

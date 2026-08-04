@@ -14,13 +14,13 @@
   <meta property="og:title" content="Der letzte Zug · A2–B1 German Short Story">
   <meta property="og:description" content="An interactive German short story with word meanings, translations, and pronunciation.">
   <meta property="og:url" content="https://germanreader.net/intermediate.html">
-  <meta property="og:image" content="https://germanreader.net/og-image-v2.png">
-  <meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image" content="https://germanreader.net/og-image-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Wort für Wort — read your way into German. 30 chapters, A1–B1, audio and translations.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Der letzte Zug · A2–B1 German Short Story">
   <meta name="twitter:description" content="A free interactive German story with vocabulary help, audio, and translations.">
-  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.png">
+  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.jpg">
   <meta name="twitter:image:alt" content="Wort für Wort — read your way into German">
   <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
 </head>
@@ -28,18 +28,20 @@
   <a class="skip-link" href="#story">Skip to story</a><div class="progress-track" aria-hidden="true"><span></span></div>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="wordmark" href="index.html"><span class="wordmark-mark">W</span><span class="wordmark-text">Wort für Wort</span></a>
-    <div class="nav-links"><a href="read.html" aria-current="page">Read</a><a href="game.html">Play</a><a href="cards.html">Cards</a></div>
+    <div class="nav-links"><a href="read.html" aria-label="Lesen — read the course">Lesen</a><a href="game.html" aria-label="Wortfeld — the word recognition board">Wortfeld</a><a href="cards.html" aria-label="Karteikarten — flashcards">Karteikarten</a></div>
   </nav>
-  <header class="page-head">
-    <div class="eyebrow" data-story-level>A2–B1 · Short story</div><h1 data-story-title>Der letzte Zug</h1><p data-story-intro></p>
+  <header class="page-head page-head-tight">
+    <h1 data-story-title lang="de">Der letzte Zug</h1><p data-story-intro></p><p class="page-head-level" data-story-level>A2–B1 · Short story</p>
   </header>
+  <p class="page-notice" data-speech-notice hidden></p>
   <div class="reader-tools" aria-label="Reader controls">
-    <button class="tool-pill" type="button" data-read-all>▶ Read the whole story</button>
-    <button class="tool-pill" type="button" data-toggle-translations>EN Show all translations</button>
-    <a class="tool-pill" href="read.html">← Back to the A1 story</a>
+    <button class="tool-pill" type="button" data-read-all>Read the whole story</button>
+    <button class="tool-pill" type="button" data-toggle-translations>EN Translations</button>
+    <button class="tool-pill" type="button" data-speak-toggle aria-pressed="true" aria-label="Speak each word automatically when you tap it"><span data-speak-toggle-label>Auto-speak on</span></button>
+    <a class="tool-pill" href="read.html">Back to the A1 course</a>
   </div>
   <main class="reader" id="story" data-reader="intermediate"></main>
-  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></footer>
+  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><span class="footer-links"><a href="license.html">License</a><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></span></footer>
   <script src="german-data.js"></script><script src="store.js"></script><script src="app.js"></script><script src="reader.js"></script>
 </body>
 </html>

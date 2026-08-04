@@ -12,13 +12,13 @@
   <meta property="og:title" content="German Flashcards with Articles &amp; Audio">
   <meta property="og:description" content="Practice A1–B1 German vocabulary, noun articles, plurals, and pronunciation with free interactive flashcards.">
   <meta property="og:url" content="https://germanreader.net/cards.html">
-  <meta property="og:image" content="https://germanreader.net/og-image-v2.png">
-  <meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image" content="https://germanreader.net/og-image-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Wort für Wort — read your way into German. 30 chapters, A1–B1, audio and translations.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="German Flashcards with Articles &amp; Audio">
   <meta name="twitter:description" content="Practice A1–B1 vocabulary, noun articles, plurals, and pronunciation.">
-  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.png">
+  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.jpg">
   <meta name="twitter:image:alt" content="Wort für Wort — read your way into German">
   <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
 </head>
@@ -26,24 +26,32 @@
   <a class="skip-link" href="#cards">Skip to cards</a>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="wordmark" href="index.html"><span class="wordmark-mark">W</span><span class="wordmark-text">Wort für Wort</span></a>
-    <div class="nav-links"><a href="read.html">Read</a><a href="game.html">Play</a><a href="cards.html" aria-current="page">Cards</a></div>
+    <div class="nav-links"><a href="read.html" aria-label="Lesen — read the course">Lesen</a><a href="game.html" aria-label="Wortfeld — the word recognition board">Wortfeld</a><a href="cards.html" aria-current="page" aria-label="Karteikarten — flashcards">Karteikarten</a></div>
   </nav>
-  <header class="page-head">
-    <div class="eyebrow">Focused practice</div><h1>Karteikarten</h1><p>For nouns, learn the article with the word. Tap to reveal, then answer honestly.</p>
+  <header class="page-head page-head-tight">
+    <h1 lang="de">Karteikarten</h1><p>For nouns, learn the article with the word. Tap to reveal, then answer honestly.</p>
   </header>
+  <p class="page-notice" data-speech-notice hidden></p>
   <main class="cards-shell" id="cards">
-    <section class="deck-settings" aria-label="Deck settings">
-      <div class="setting"><h2>Levels</h2><div class="chips"><button class="chip on" data-level="A1">A1</button><button class="chip on" data-level="A2">A2</button><button class="chip on" data-level="B1">B1</button></div></div>
-      <div class="setting"><h2>Source</h2><div class="chips"><button class="chip on" data-source="all">All words</button><button class="chip" data-source="seen">Tapped in a story</button><button class="chip" data-source="starred">Starred</button></div></div>
-    </section>
-    <div class="empty-state" data-empty hidden>No words match this deck yet. Read a story or star a few words first.</div>
+    <details class="deck-settings" data-deck-settings>
+      <summary><span>Deck</span><b data-deck-summary>A1 A2 B1 · All words</b></summary>
+      <div class="deck-settings-body">
+        <div class="setting"><h2>Levels</h2><div class="chips"><button class="chip on" data-level="A1" aria-pressed="true">A1</button><button class="chip on" data-level="A2" aria-pressed="true">A2</button><button class="chip on" data-level="B1" aria-pressed="true">B1</button></div></div>
+        <div class="setting"><h2>Source</h2><div class="chips"><button class="chip on" data-source="all" aria-pressed="true">All words</button><button class="chip" data-source="seen" aria-pressed="false">Reached while reading</button><button class="chip" data-source="starred" aria-pressed="false">Starred</button><button class="chip" data-source="learning" aria-pressed="false">Still learning</button></div></div>
+        <div class="setting setting-wide"><h2>Sound</h2><div class="chips"><button class="chip" type="button" data-speak-toggle aria-pressed="true" aria-label="Speak each word automatically when you tap it"><span data-speak-toggle-label>Auto-speak on</span></button></div></div>
+      </div>
+    </details>
+    <div class="empty-state" data-empty hidden>
+      <p data-empty-copy>No words match this deck yet.</p>
+      <div class="empty-actions"><a class="button primary" href="read.html">Read chapter one</a><a class="button" href="game.html">Open the board</a></div>
+    </div>
     <section class="card-stage" data-card-stage>
       <div class="card-progress"><span>Current deck</span><b data-card-count>0 / 0</b></div>
       <article class="flashcard" data-flashcard tabindex="0" role="button" aria-label="Reveal flashcard"></article>
       <div class="answer-row" data-answer-row><button class="button" data-again>1 · Again</button><button class="button primary" data-got>2 · I knew it</button></div>
     </section>
   </main>
-  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></footer>
+  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><span class="footer-links"><a href="license.html">License</a><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></span></footer>
   <script src="german-data.js"></script><script src="store.js"></script><script src="app.js"></script><script src="cards.js"></script>
 </body>
 </html>
