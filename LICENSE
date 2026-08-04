@@ -1,17 +1,13 @@
-一字一世界 (yī zì yī shìjiè) — chinesereader.net
+Wort für Wort — German reader and learning tool
 ================================================
 
-This project is released under two licenses, because it contains two
-different kinds of work. Both permit reuse — commercial included — as
-long as you give credit.
+This project is released under two licenses. Both permit commercial reuse
+under the conditions below.
 
 
---------------------------------------------------------------------
 1. SOFTWARE — MIT License
---------------------------------------------------------------------
-Applies to: all HTML, CSS, JavaScript, and build scripts
-(index.html, read.html, intermediate.html, game.html, cards.html,
- store.js, build-vocab.js, tokenize.js, og-image.py, and templates).
+-------------------------
+Applies to all HTML, CSS, and JavaScript that power Wort für Wort.
 
 MIT License
 
@@ -36,30 +32,28 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
---------------------------------------------------------------------
 2. CONTENT — Creative Commons Attribution 4.0 International (CC BY 4.0)
---------------------------------------------------------------------
-Applies to: the written and curated material — the two stories
-(the beginner reader and 北京有雨), the English translations, the
-1,000-word list with its pinyin and English definitions, and the
-artwork (favicon, social image).
+----------------------------------------------------------------------------
+Applies to the German vocabulary entries, English glosses, grammar notes,
+original stories, translations, and visual identity.
 
-You are free to share and adapt this material for any purpose,
-including commercially, provided you give appropriate credit, link to
-the license, and indicate if changes were made.
+You may share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the license, and indicate if
+changes were made.
 
 Full text: https://creativecommons.org/licenses/by/4.0/
 
 Suggested attribution:
-  Vocabulary and stories from 一字一世界 by @pourteaux
-  (https://chinesereader.net), licensed under CC BY 4.0.
+  German vocabulary and stories from Wort für Wort by @pourteaux,
+  licensed under CC BY 4.0.
 
 
---------------------------------------------------------------------
-A note on the HSK word lists
---------------------------------------------------------------------
-The HSK levels themselves are a published standard from Hanban / the
-Chinese Ministry of Education and are not claimed by this project. The
-selection of the additional ~500 non-HSK words, and every pinyin and
-English gloss written here, are this project's own work and fall under
-the CC BY 4.0 license above.
+ADAPTATION NOTE
+---------------
+Wort für Wort is a German-language adaptation of the interaction concept
+originally published as 一字一世界 at https://chinesereader.net by @pourteaux.
+The German stories and vocabulary were newly written for this edition.
+
+CEFR is a public framework and is not owned or claimed by this project. The
+level labels are practical guidance, not an official certification or an
+exhaustive CEFR word list.
