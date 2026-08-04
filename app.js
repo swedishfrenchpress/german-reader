@@ -14,15 +14,30 @@
     return parts.filter(Boolean).join(" · ");
   };
 
-  const speak = text => {
+  let activeUtterance = null;
+  let germanVoices = [];
+  const loadVoices = () => {
     if (!("speechSynthesis" in window)) return;
-    speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    germanVoices = window.speechSynthesis.getVoices().filter(voice => voice.lang.toLowerCase().startsWith("de"));
+  };
+  loadVoices();
+  if ("speechSynthesis" in window) window.speechSynthesis.addEventListener?.("voiceschanged", loadVoices);
+
+  const speak = text => {
+    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return false;
+    const synth = window.speechSynthesis;
+    if (synth.speaking || synth.pending) synth.cancel();
+    activeUtterance = new window.SpeechSynthesisUtterance(text);
+    const utterance = activeUtterance;
     utterance.lang = "de-DE";
     utterance.rate = .84;
-    const voice = speechSynthesis.getVoices().find(item => item.lang.toLowerCase().startsWith("de"));
+    utterance.volume = 1;
+    const voice = germanVoices[0] || synth.getVoices().find(item => item.lang.toLowerCase().startsWith("de"));
     if (voice) utterance.voice = voice;
-    speechSynthesis.speak(utterance);
+    utterance.onend = utterance.onerror = () => { if (activeUtterance === utterance) activeUtterance = null; };
+    synth.resume();
+    synth.speak(utterance);
+    return true;
   };
 
   const tokenize = text => {
@@ -55,22 +70,24 @@
     const root = ensurePopover();
     const isStarred = window.WORTWEG?.isStarred(entry.w);
     const isKnown = window.WORTWEG?.isKnown(entry.w);
+    const spokenText = entry.a ? `${entry.a} ${entry.w}` : entry.w;
     root.innerHTML = `
       <div>
         <div class="pop-word">${displayWord(entry)}</div>
         <div class="pop-meta">${detail(entry)}</div>
       </div>
       <div class="pop-actions">
-        <button type="button" data-action="speak" aria-label="Pronounce ${entry.w}">▶</button>
+        <button type="button" data-action="speak" aria-label="Pronounce ${entry.w}" title="Hear pronunciation">🔊</button>
         <button type="button" data-action="star" class="${isStarred ? "on" : ""}" aria-label="Star ${entry.w}">★</button>
         <button type="button" data-action="known" class="${isKnown ? "on" : ""}" aria-label="Mark ${entry.w} known">✓</button>
       </div>
       ${entry.n ? `<div class="pop-note">${entry.n}</div>` : ""}`;
-    root.querySelector('[data-action="speak"]').onclick = () => speak(entry.a ? `${entry.a} ${entry.w}` : entry.w);
+    root.querySelector('[data-action="speak"]').onclick = () => speak(spokenText);
     root.querySelector('[data-action="star"]').onclick = event => event.currentTarget.classList.toggle("on", window.WORTWEG.toggleStar(entry.w));
     root.querySelector('[data-action="known"]').onclick = event => event.currentTarget.classList.toggle("on", window.WORTWEG.toggleKnown(entry.w));
     window.WORTWEG?.markSeen(entry.w);
     root.classList.add("show");
+    speak(spokenText);
   };
 
   document.addEventListener("keydown", event => {
