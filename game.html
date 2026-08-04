@@ -12,13 +12,13 @@
   <meta property="og:title" content="Wortfeld · Free German Vocabulary Game">
   <meta property="og:description" content="Test German word recognition on a visual board, hear pronunciation, and save the words you know.">
   <meta property="og:url" content="https://germanreader.net/game.html">
-  <meta property="og:image" content="https://germanreader.net/og-image-v2.png">
-  <meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image" content="https://germanreader.net/og-image-v2.jpg">
+  <meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Wort für Wort — read your way into German. 30 chapters, A1–B1, audio and translations.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Wortfeld · Free German Vocabulary Game">
   <meta name="twitter:description" content="Test German word recognition, hear pronunciation, and save the words you know.">
-  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.png">
+  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.jpg">
   <meta name="twitter:image:alt" content="Wort für Wort — read your way into German">
   <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
 </head>
@@ -26,28 +26,36 @@
   <a class="skip-link" href="#board">Skip to game</a>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="wordmark" href="index.html"><span class="wordmark-mark">W</span><span class="wordmark-text">Wort für Wort</span></a>
-    <div class="nav-links"><a href="read.html">Read</a><a href="game.html" aria-current="page">Play</a><a href="cards.html">Cards</a></div>
+    <div class="nav-links"><a href="read.html" aria-label="Lesen — read the course">Lesen</a><a href="game.html" aria-current="page" aria-label="Wortfeld — the word recognition board">Wortfeld</a><a href="cards.html" aria-label="Karteikarten — flashcards">Karteikarten</a></div>
   </nav>
-  <header class="page-head">
-    <div class="eyebrow">Recognition game</div><h1>Wortfeld</h1><p>Choose a tile. Say the meaning before you reveal it. Green is known; red needs another look.</p>
+  <header class="page-head page-head-tight">
+    <h1 lang="de">Wortfeld</h1><p>Choose a tile. Say the meaning before you reveal it, then mark yourself honestly.</p>
   </header>
+  <p class="page-notice" data-speech-notice hidden></p>
   <main class="game-shell" id="board">
-    <section class="game-stats" aria-label="Game progress">
-      <div class="stat"><b data-known-count>0</b><span>Known</span></div>
-      <div class="stat"><b data-starred-count>0</b><span>Starred</span></div>
+    <section class="game-stats" aria-label="Board progress">
+      <div class="stat"><b data-remaining-count>0</b><span>Tiles left</span></div>
+      <div class="stat"><b data-known-count>0</b><span>Known here</span></div>
       <div class="stat"><b data-board-count>0</b><span>On this board</span></div>
     </section>
+    <p class="demo-key board-key"><span class="key-swatch key-known"></span>known<span class="key-swatch key-learning"></span>still learning</p>
     <div class="word-board" data-word-board aria-label="German word tiles"></div>
     <section class="quiz-panel" aria-live="polite">
-      <div class="quiz-top"><div class="quiz-word" data-quiz-word>Wähle ein Wort.</div><button class="button small" type="button" data-reveal disabled>Reveal + hear</button></div>
+      <div class="quiz-top"><div class="quiz-word" data-quiz-word lang="de">Wähle ein Wort.</div><button class="button small" type="button" data-reveal disabled>Reveal + hear</button></div>
       <div class="quiz-answer" data-quiz-answer>Choose any tile to begin.</div>
       <div class="quiz-actions">
         <button class="button small" type="button" data-learning disabled>Still learning</button>
         <button class="button primary small" type="button" data-knew disabled>I knew it</button>
+        <button class="tool-pill quiz-sound" type="button" data-speak-toggle aria-pressed="true" aria-label="Speak each word automatically when you tap it"><span data-speak-toggle-label>Auto-speak on</span></button>
       </div>
     </section>
+    <section class="board-finish" data-board-finish hidden>
+      <b lang="de">Geschafft.</b>
+      <p data-board-finish-copy></p>
+      <div class="board-finish-actions"><button class="button primary" type="button" data-board-again>Deal a new board</button><a class="button" data-board-study href="cards.html?custom=1" hidden>Study those as cards</a></div>
+    </section>
   </main>
-  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></footer>
+  <footer class="site-footer"><span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span><span class="footer-links"><a href="license.html">License</a><a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a></span></footer>
   <script src="german-data.js"></script><script src="store.js"></script><script src="app.js"></script><script src="game.js"></script>
 </body>
 </html>
