@@ -39,14 +39,14 @@
     empty.hidden = true; stage.hidden = false;
     if (index >= deck.length) {
       document.querySelector("[data-card-count]").textContent = `${deck.length} / ${deck.length}`;
-      card.innerHTML = `<div><div class="flashcard-word">Geschafft.</div><div class="flashcard-detail" style="display:block">You finished ${deck.length} cards. ${missed.length ? `${missed.length} need another look.` : "Every card was known."}</div><div class="flashcard-hint">Change a filter to build another deck</div></div>`;
+      card.innerHTML = `<div><div class="flashcard-word" lang="de">Geschafft.</div><div class="flashcard-detail" style="display:block">You finished ${deck.length} cards. ${missed.length ? `${missed.length} need another look.` : "Every card was known."}</div><div class="flashcard-hint">Change a filter to build another deck</div></div>`;
       card.classList.add("flipped");
       document.querySelector("[data-answer-row]").classList.remove("show");
       return;
     }
     const entry = deck[index];
     card.classList.remove("flipped");
-    card.innerHTML = `<div><div class="flashcard-word">${reader.displayWord(entry)}</div><div class="flashcard-detail">${reader.detail(entry)}${entry.n ? `<br><small>${entry.n}</small>` : ""}</div><div class="flashcard-hint">Tap to reveal · press space</div></div>`;
+    card.innerHTML = `<div><div class="flashcard-word" lang="de">${reader.displayWord(entry)}</div><div class="flashcard-detail">${reader.detail(entry)}${entry.n ? `<br><small>${entry.n}</small>` : ""}</div><div class="flashcard-hint">Tap to reveal · press space</div></div>`;
     document.querySelector("[data-card-count]").textContent = `${index + 1} / ${deck.length}`;
     document.querySelector("[data-answer-row]").classList.remove("show");
   };

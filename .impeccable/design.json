@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-04T17:49:46Z",
+  "title": "Design System: Wort für Wort",
+  "extensions": {
+    "colorMeta": {
+      "paper-cream": {
+        "role": "neutral",
+        "displayName": "Paper Cream",
+        "canonical": "#f3efe5",
+        "tonalRamp": ["oklch(15% 0.014 88.7)", "oklch(27% 0.014 88.7)", "oklch(39% 0.014 88.7)", "oklch(51% 0.014 88.7)", "oklch(63% 0.014 88.7)", "oklch(75% 0.014 88.7)", "oklch(87% 0.014 88.7)", "oklch(95% 0.014 88.7)"]
+      },
+      "aged-paper": {
+        "role": "neutral",
+        "displayName": "Aged Paper",
+        "canonical": "#e9e1d2",
+        "tonalRamp": ["oklch(15% 0.022 83.3)", "oklch(27% 0.022 83.3)", "oklch(39% 0.022 83.3)", "oklch(51% 0.022 83.3)", "oklch(63% 0.022 83.3)", "oklch(75% 0.022 83.3)", "oklch(87% 0.022 83.3)", "oklch(95% 0.022 83.3)"]
+      },
+      "printers-black": {
+        "role": "neutral",
+        "displayName": "Printer's Black",
+        "canonical": "#171713",
+        "tonalRamp": ["oklch(15% 0.008 107.1)", "oklch(27% 0.008 107.1)", "oklch(39% 0.008 107.1)", "oklch(51% 0.008 107.1)", "oklch(63% 0.008 107.1)", "oklch(75% 0.008 107.1)", "oklch(87% 0.008 107.1)", "oklch(95% 0.008 107.1)"]
+      },
+      "soft-graphite": {
+        "role": "neutral",
+        "displayName": "Soft Graphite",
+        "canonical": "#6d685f",
+        "tonalRamp": ["oklch(15% 0.015 82.4)", "oklch(27% 0.015 82.4)", "oklch(39% 0.015 82.4)", "oklch(51% 0.015 82.4)", "oklch(63% 0.015 82.4)", "oklch(75% 0.015 82.4)", "oklch(87% 0.015 82.4)", "oklch(95% 0.015 82.4)"]
+      },
+      "vermilion-ink": {
+        "role": "primary",
+        "displayName": "Vermilion Ink",
+        "canonical": "#c9362b",
+        "tonalRamp": ["oklch(15% 0.186 28.8)", "oklch(27% 0.186 28.8)", "oklch(39% 0.186 28.8)", "oklch(51% 0.186 28.8)", "oklch(63% 0.186 28.8)", "oklch(75% 0.186 28.8)", "oklch(87% 0.186 28.8)", "oklch(95% 0.186 28.8)"]
+      },
+      "deep-vermilion": {
+        "role": "primary",
+        "displayName": "Deep Vermilion",
+        "canonical": "#98261e",
+        "tonalRamp": ["oklch(15% 0.151 28.7)", "oklch(27% 0.151 28.7)", "oklch(39% 0.151 28.7)", "oklch(51% 0.151 28.7)", "oklch(63% 0.151 28.7)", "oklch(75% 0.151 28.7)", "oklch(87% 0.151 28.7)", "oklch(95% 0.151 28.7)"]
+      },
+      "berlin-blue": {
+        "role": "secondary",
+        "displayName": "Berlin Blue",
+        "canonical": "#275ba8",
+        "tonalRamp": ["oklch(15% 0.136 258.4)", "oklch(27% 0.136 258.4)", "oklch(39% 0.136 258.4)", "oklch(51% 0.136 258.4)", "oklch(63% 0.136 258.4)", "oklch(75% 0.136 258.4)", "oklch(87% 0.136 258.4)", "oklch(95% 0.136 258.4)"]
+      },
+      "classroom-ochre": {
+        "role": "secondary",
+        "displayName": "Classroom Ochre",
+        "canonical": "#e7b72b",
+        "tonalRamp": ["oklch(15% 0.153 88.0)", "oklch(27% 0.153 88.0)", "oklch(39% 0.153 88.0)", "oklch(51% 0.153 88.0)", "oklch(63% 0.153 88.0)", "oklch(75% 0.153 88.0)", "oklch(87% 0.153 88.0)", "oklch(95% 0.153 88.0)"]
+      },
+      "classroom-ochre-pale": {
+        "role": "secondary",
+        "displayName": "Pale Classroom Ochre",
+        "canonical": "#fff6d8",
+        "tonalRamp": ["oklch(15% 0.040 93.2)", "oklch(27% 0.040 93.2)", "oklch(39% 0.040 93.2)", "oklch(51% 0.040 93.2)", "oklch(63% 0.040 93.2)", "oklch(75% 0.040 93.2)", "oklch(87% 0.040 93.2)", "oklch(95% 0.040 93.2)"]
+      },
+      "study-green": {
+        "role": "tertiary",
+        "displayName": "Study Green",
+        "canonical": "#2f745b",
+        "tonalRamp": ["oklch(15% 0.081 166.5)", "oklch(27% 0.081 166.5)", "oklch(39% 0.081 166.5)", "oklch(51% 0.081 166.5)", "oklch(63% 0.081 166.5)", "oklch(75% 0.081 166.5)", "oklch(87% 0.081 166.5)", "oklch(95% 0.081 166.5)"]
+      },
+      "rule-gray": {
+        "role": "neutral",
+        "displayName": "Rule Gray",
+        "canonical": "#c9c0b0",
+        "tonalRamp": ["oklch(15% 0.024 82.1)", "oklch(27% 0.024 82.1)", "oklch(39% 0.024 82.1)", "oklch(51% 0.024 82.1)", "oklch(63% 0.024 82.1)", "oklch(75% 0.024 82.1)", "oklch(87% 0.024 82.1)", "oklch(95% 0.024 82.1)"]
+      },
+      "clean-sheet": {
+        "role": "neutral",
+        "displayName": "Clean Sheet",
+        "canonical": "#fffdf7",
+        "tonalRamp": ["oklch(15% 0.008 91.5)", "oklch(27% 0.008 91.5)", "oklch(39% 0.008 91.5)", "oklch(51% 0.008 91.5)", "oklch(63% 0.008 91.5)", "oklch(75% 0.008 91.5)", "oklch(87% 0.008 91.5)", "oklch(95% 0.008 91.5)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Display", "purpose": "Balanced home-page hero statements, capped at 6rem." },
+      "poster-data": { "displayName": "Poster Data", "purpose": "Oversized numeric teaching-poster graphics only." },
+      "page-title": { "displayName": "Page Title", "purpose": "Inner-page titles and long legal headings." },
+      "headline": { "displayName": "Editorial Headline", "purpose": "Major section headings." },
+      "feature": { "displayName": "Feature Type", "purpose": "Chapter displays, flashcards, quotations, and completion moments." },
+      "title": { "displayName": "Workshop Title", "purpose": "Cards, quiz words, popovers, and drawers." },
+      "reading": { "displayName": "Story Reading", "purpose": "Sustained German prose and learning lines." },
+      "word": { "displayName": "Vocabulary Word", "purpose": "Compact German words in lists and mobile data states." },
+      "lede": { "displayName": "Literary Lede", "purpose": "Introductory and explanatory serif copy." },
+      "body-large": { "displayName": "Large Body", "purpose": "Prominent supporting explanations and revealed answers." },
+      "body": { "displayName": "Body", "purpose": "Ordinary interface and explanatory copy." },
+      "support": { "displayName": "Supporting Copy", "purpose": "Translations, definitions, hints, and secondary prose." },
+      "control": { "displayName": "Control", "purpose": "Navigation, buttons, chips, and compact metadata." },
+      "label": { "displayName": "Workshop Label", "purpose": "Progress and structural labels." },
+      "micro": { "displayName": "Micro Label", "purpose": "Dense state stamps with strong weight and contrast." }
+    },
+    "shadows": [
+      { "name": "button-lift", "value": "4px 4px 0 #171713", "purpose": "Hover feedback for standard outlined controls." },
+      { "name": "compact-plate", "value": "5px 5px 0 #171713", "purpose": "Persistent floating vocabulary action." },
+      { "name": "panel-plate", "value": "8px 8px 0 #171713", "purpose": "Sticky quiz and task panels." },
+      { "name": "poster-plate", "value": "12px 12px 0 #171713", "purpose": "Large expressive poster objects." },
+      { "name": "blue-card-plate", "value": "10px 10px 0 #275ba8", "purpose": "Flashcards and selected learning artifacts." },
+      { "name": "ambient-overlay", "value": "0 18px 45px rgba(32, 28, 20, .12)", "purpose": "Temporary word popovers." },
+      { "name": "drawer-shadow", "value": "-18px 0 50px rgba(23, 23, 19, .2)", "purpose": "Off-canvas vocabulary drawer." }
+    ],
+    "motion": [
+      { "name": "control-lift", "value": "transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, color 0.16s ease", "purpose": "Fast physical feedback on buttons." },
+      { "name": "surface-shift", "value": "background 0.18s ease", "purpose": "Quiet card and surface state changes." },
+      { "name": "graphic-turn", "value": "transform 0.25s ease", "purpose": "Geometric card artwork movement." },
+      { "name": "drawer-entry", "value": "transform 0.3s cubic-bezier(.22, 1, .36, 1)", "purpose": "Decisive off-canvas panel entry." }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "900px" },
+      { "name": "compact", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The decisive action: dark ink at rest, Vermilion Ink when lifted.",
+      "html": "<button class=\"ds-btn-primary\">BEGIN READING →</button>",
+      "css": ".ds-btn-primary { min-height: 48px; padding: 13px 19px; border: 1px solid var(--ink, #171713); border-radius: 0; background: var(--ink, #171713); color: var(--white, #fffdf7); font: 700 13px/1.2 var(--sans, sans-serif); letter-spacing: .04em; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s ease; } .ds-btn-primary:hover { transform: translate(-2px, -2px); background: var(--red, #c9362b); border-color: var(--red, #c9362b); box-shadow: 4px 4px 0 var(--red-dark, #98261e); } .ds-btn-primary:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 3px; } .ds-btn-primary:active { transform: translate(0, 0); box-shadow: none; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "An outlined paper control with the same physical lift as the primary action.",
+      "html": "<button class=\"ds-btn-secondary\">TEST YOUR WORDS</button>",
+      "css": ".ds-btn-secondary { min-height: 48px; padding: 13px 19px; border: 1px solid var(--ink, #171713); border-radius: 0; background: transparent; color: var(--ink, #171713); font: 700 13px/1.2 var(--sans, sans-serif); letter-spacing: .04em; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background .16s ease; } .ds-btn-secondary:hover { transform: translate(-2px, -2px); background: var(--white, #fffdf7); box-shadow: 4px 4px 0 var(--ink, #171713); } .ds-btn-secondary:focus-visible { outline: 3px solid var(--red, #c9362b); outline-offset: 3px; } .ds-btn-secondary:active { transform: translate(0, 0); box-shadow: none; }"
+    },
+    {
+      "name": "Tool Pill",
+      "kind": "button",
+      "description": "A compact reader control that turns Berlin Blue when active.",
+      "html": "<button class=\"ds-tool-pill\">EN SHOW TRANSLATIONS</button>",
+      "css": ".ds-tool-pill { padding: 8px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--white, #fffdf7); color: var(--muted, #6d685f); font: 700 13px/1.2 var(--sans, sans-serif); text-decoration: none; cursor: pointer; } .ds-tool-pill:hover, .ds-tool-pill[aria-pressed=\"true\"] { border-color: var(--blue, #275ba8); background: var(--blue, #275ba8); color: #fff; } .ds-tool-pill:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A square filtering control with a solid Vermilion selected state.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"false\">A2 WORDS</button>",
+      "css": ".ds-chip { padding: 8px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--paper, #f3efe5); color: var(--ink, #171713); font: 700 13px/1.2 var(--sans, sans-serif); cursor: pointer; } .ds-chip:hover { border-color: var(--red, #c9362b); } .ds-chip[aria-pressed=\"true\"] { border-color: var(--red, #c9362b); background: var(--red, #c9362b); color: #fff; } .ds-chip:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A plain Clean Sheet field bounded by a quiet printer's rule.",
+      "html": "<label class=\"ds-field\"><span>SEARCH WORDS</span><input type=\"search\" placeholder=\"German or English…\"></label>",
+      "css": ".ds-field { display: grid; gap: 7px; color: var(--muted, #6d685f); font: 800 10px/1.2 var(--sans, sans-serif); letter-spacing: .12em; } .ds-field input { padding: 10px 12px; border: 1px solid var(--line, #c9c0b0); border-radius: 0; background: var(--white, #fffdf7); color: var(--ink, #171713); font: 400 16px/1.55 var(--sans, sans-serif); } .ds-field input:focus-visible { border-color: var(--red, #c9362b); outline: 2px solid var(--red, #c9362b); outline-offset: 1px; } .ds-field input::placeholder { color: var(--muted, #6d685f); }"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "description": "A ruled editorial header with a rotated Vermilion printer's mark.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\"><b>W</b><span>WORT FÜR WORT</span></a><div><a class=\"ds-current\" href=\"#\">READ</a><a href=\"#\">PLAY</a><a href=\"#\">CARDS</a></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 20px; border-bottom: 1px solid var(--line, #c9c0b0); background: var(--paper, #f3efe5); font-family: var(--sans, sans-serif); } .ds-nav a { color: var(--muted, #6d685f); text-decoration: none; } .ds-wordmark { display: inline-flex; align-items: center; gap: 12px; color: var(--ink, #171713) !important; font-size: 13px; font-weight: 700; line-height: 1.2; letter-spacing: .08em; } .ds-wordmark b { width: 34px; height: 34px; display: grid; place-items: center; background: var(--red, #c9362b); color: #fff; transform: rotate(-3deg); font-size: 16px; line-height: 1; } .ds-nav > div { display: flex; gap: 20px; font-size: 13px; font-weight: 700; line-height: 1.2; } .ds-nav > div a { padding-bottom: 3px; border-bottom: 1px solid transparent; } .ds-nav > div a:hover, .ds-nav > div .ds-current { color: var(--ink, #171713); border-color: var(--red, #c9362b); } .ds-nav a:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Learning Path Card",
+      "kind": "card",
+      "description": "A square editorial route card animated by one bold geometric ink form.",
+      "html": "<a class=\"ds-path-card\" href=\"#\"><span class=\"ds-path-label\">01 · A1 READER</span><i></i><h3>Ein Jahr in Berlin</h3><p>Read a graded story with instant vocabulary help.</p><b>BEGIN CHAPTER ONE →</b></a>",
+      "css": ".ds-path-card { position: relative; min-height: 280px; padding: 28px; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--ink, #171713); background: rgba(255,253,247,.42); color: var(--ink, #171713); text-decoration: none; font-family: var(--sans, sans-serif); transition: background .18s ease; } .ds-path-card:hover { background: var(--white, #fffdf7); } .ds-path-card i { position: absolute; right: -30px; top: 35px; width: 150px; height: 150px; border-radius: 50%; background: var(--red, #c9362b); transition: transform .25s ease; } .ds-path-card:hover i { transform: rotate(12deg) scale(1.06); } .ds-path-label { position: relative; z-index: 1; color: var(--muted, #6d685f); font-size: 11px; font-weight: 800; line-height: 1.2; letter-spacing: .14em; } .ds-path-card h3 { position: relative; z-index: 1; margin: auto 0 10px; font: 500 36px/1.05 var(--serif, Georgia, serif); letter-spacing: -.02em; } .ds-path-card p { position: relative; z-index: 1; max-width: 34ch; margin: 0 0 24px; color: var(--muted, #6d685f); font: 400 16px/1.6 var(--sans, sans-serif); } .ds-path-card b { position: relative; z-index: 1; color: var(--red-dark, #98261e); font-size: 11px; line-height: 1.2; letter-spacing: .1em; } .ds-path-card:focus-visible { outline: 4px solid var(--yellow, #e7b72b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Word Popover",
+      "kind": "custom",
+      "description": "A dark temporary definition plate topped with Classroom Ochre.",
+      "html": "<aside class=\"ds-popover\"><div><strong>die Geschichte</strong><span>Geschichten · story; history</span></div><button aria-label=\"Play pronunciation\">▶</button><p>Nouns travel with their article and plural.</p></aside>",
+      "css": ".ds-popover { width: min(500px, 90vw); padding: 20px 22px; display: grid; grid-template-columns: 1fr auto; gap: 12px 18px; align-items: center; border-top: 4px solid var(--yellow, #e7b72b); background: var(--ink, #171713); color: var(--white, #fffdf7); box-shadow: 0 18px 45px rgba(32,28,20,.12); } .ds-popover strong { display: block; font: 500 36px/1.05 var(--serif, Georgia, serif); overflow-wrap: anywhere; } .ds-popover span { color: var(--line, #c9c0b0); font: 400 13px/1.45 var(--sans, sans-serif); } .ds-popover p { grid-column: 1 / -1; margin: 0; padding-top: 11px; border-top: 1px solid var(--muted, #6d685f); color: var(--paper-2, #e9e1d2); font: 500 13px/1.55 var(--sans, sans-serif); letter-spacing: .01em; } .ds-popover button { width: 38px; height: 38px; border: 1px solid var(--muted, #6d685f); border-radius: 50%; background: transparent; color: #fff; cursor: pointer; } .ds-popover button:hover { border-color: var(--yellow, #e7b72b); color: var(--yellow, #e7b72b); } .ds-popover button:focus-visible { outline: 3px solid var(--yellow, #e7b72b); outline-offset: 2px; }"
+    },
+    {
+      "name": "Flashcard",
+      "kind": "card",
+      "description": "A large Clean Sheet learning plate with a Berlin Blue structural offset.",
+      "html": "<button class=\"ds-flashcard\"><strong>der Anfang</strong><span>die Anfänge · beginning</span><small>TAP TO REVEAL</small></button>",
+      "css": ".ds-flashcard { min-height: 300px; width: min(560px, 90vw); padding: 36px; display: grid; place-items: center; align-content: center; gap: 18px; border: 1px solid var(--ink, #171713); border-radius: 0; background: var(--white, #fffdf7); color: var(--ink, #171713); box-shadow: 10px 10px 0 var(--blue, #275ba8); text-align: center; cursor: pointer; } .ds-flashcard strong { font: 500 clamp(32px, 5vw, 54px)/1.05 var(--serif, Georgia, serif); overflow-wrap: anywhere; } .ds-flashcard span { color: var(--muted, #6d685f); font: 400 18px/1.5 var(--sans, sans-serif); } .ds-flashcard small { color: var(--muted, #6d685f); font: 800 11px/1.2 var(--sans, sans-serif); letter-spacing: .14em; } .ds-flashcard:hover { transform: translate(-2px, -2px); box-shadow: 12px 12px 0 var(--blue, #275ba8); } .ds-flashcard:focus-visible { outline: 4px solid var(--red, #c9362b); outline-offset: 4px; } .ds-flashcard:active { transform: translate(0, 0); box-shadow: 8px 8px 0 var(--blue, #275ba8); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Berlin Print Workshop",
+    "overview": "Wort für Wort should feel like entering a small Berlin print studio where a literary reader, a teaching poster, and a set of hand-operated study tools are being made at the same table. Paper warmth and old-style serif type create a scholarly reading atmosphere; hard rules, compact labels, and saturated blocks of ink keep it active rather than precious.\n\nThe system is tactile, editorial, energetic, and scholarly. It rejects glossy SaaS polish and cartoonish gamification: learning states are communicated through ink, geometry, weight, and physical movement rather than glass effects, inflated rounding, or ornamental reward systems.",
+    "keyCharacteristics": [
+      "Warm paper fields with near-black editorial structure.",
+      "Literary serif text paired with compact modernist sans-serif labels.",
+      "Saturated vermilion, blue, ochre, and green used as deliberate ink blocks.",
+      "Square, one-pixel-bordered surfaces with hard offset shadows.",
+      "Circles, squares, and triangles used as print-shop geometry, not decoration for its own sake."
+    ],
+    "rules": [
+      { "name": "The Limited-Ink Rule", "body": "Paper Cream and Printer's Black carry the page. Saturated colors appear in deliberate blocks or meaningful states; do not blend them into glossy gradients or scatter them as decoration.", "section": "colors" },
+      { "name": "The Story-and-Workshop Rule", "body": "Serif type carries language, narrative, and human-scale meaning. Sans-serif type operates the interface and labels the learning machinery; do not reverse those jobs casually.", "section": "typography" },
+      { "name": "The Structural-Shadow Rule", "body": "Use crisp, zero-blur offsets for objects that feel printed, stacked, or pressed. Use blur only when a temporary overlay physically sits above the entire page.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do let Paper Cream and Printer's Black establish most of every screen.",
+      "Do use the serif for German words, stories, and expressive headings, and the sans-serif for controls and metadata.",
+      "Do use one-pixel rules, square corners, and crisp offset shadows to preserve the print-workshop construction.",
+      "Do reserve Vermilion, Blue, Ochre, and Green for clear hierarchy, information, selection, and learning states.",
+      "Do preserve generous reading line-height and focused 760–820px reading widths."
+    ],
+    "donts": [
+      "Don't introduce glossy gradients, glassmorphism, inflated rounding, or soft SaaS-style card stacks.",
+      "Don't turn learning progress into cartoon rewards, decorative badges, or confetti.",
+      "Don't use saturated colors interchangeably; each ink has a specific semantic job.",
+      "Don't add ambient shadows to ordinary cards or controls; hard offsets are the default physical language.",
+      "Don't shrink dense mobile controls below comfortable tap targets or remove the reduced-motion behavior."
+    ]
+  }
+}

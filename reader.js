@@ -7,7 +7,9 @@
   if (!story) return;
 
   document.title = `${story.title} · Wort für Wort`;
-  document.querySelector("[data-story-title]").textContent = story.title;
+  const storyTitle = document.querySelector("[data-story-title]");
+  storyTitle.textContent = story.title;
+  storyTitle.lang = "de";
   document.querySelector("[data-story-level]").textContent = story.level;
   document.querySelector("[data-story-intro]").textContent = story.intro;
 
@@ -17,6 +19,7 @@
     button.type = "button";
     button.className = `word${token.entry.w === focus ? " fresh" : ""}`;
     button.textContent = token.text;
+    button.lang = "de";
     button.setAttribute("aria-label", `Explain ${token.text}`);
     button.onclick = event => {
       event.stopPropagation();
@@ -36,6 +39,7 @@
       const wrapper = document.createElement("div");
       const line = document.createElement("p");
       line.className = "story-paragraph";
+      line.lang = "de";
       const actions = document.createElement("span");
       actions.className = "line-actions";
       actions.innerHTML = '<button class="icon-button" type="button" aria-label="Read this sentence aloud">▶</button><button class="icon-button" type="button" aria-label="Show translation">EN</button>';
@@ -53,7 +57,7 @@
     story.chapters.forEach((chapter, index) => {
       const section = document.createElement("section");
       section.className = "chapter";
-      section.innerHTML = `<div class="chapter-kicker">Kapitel ${String(index + 1).padStart(2, "0")}</div><h2>${chapter.title}</h2>`;
+      section.innerHTML = `<div class="chapter-kicker">Kapitel ${String(index + 1).padStart(2, "0")}</div><h2 lang="de">${chapter.title}</h2>`;
       chapter.paragraphs.forEach(paragraph => section.appendChild(makeParagraph(paragraph)));
       root.appendChild(section);
     });
@@ -68,12 +72,12 @@
       const section = document.createElement("section");
       section.className = "course-chapter";
       section.id = `kapitel-${chapterIndex + 1}`;
-      section.innerHTML = `<header class="course-chapter-head"><div class="chapter-kicker">Kapitel ${String(chapterIndex + 1).padStart(2, "0")}</div><h2>${chapter.title}</h2><p>${chapter.en}</p></header>`;
+      section.innerHTML = `<header class="course-chapter-head"><div class="chapter-kicker">Kapitel ${String(chapterIndex + 1).padStart(2, "0")}</div><h2 lang="de">${chapter.title}</h2><p>${chapter.en}</p></header>`;
 
       const tocLink = document.createElement("a");
       tocLink.href = `#${section.id}`;
       tocLink.dataset.chapter = chapterIndex;
-      tocLink.innerHTML = `<span class="toc-number">${String(chapterIndex + 1).padStart(2, "0")}</span><span>${chapter.title}</span><span class="toc-check"></span>`;
+      tocLink.innerHTML = `<span class="toc-number">${String(chapterIndex + 1).padStart(2, "0")}</span><span lang="de">${chapter.title}</span><span class="toc-check"></span>`;
       tocLink.onclick = () => document.querySelector("[data-course-toc]")?.removeAttribute("open");
       toc.appendChild(tocLink);
 
@@ -92,7 +96,7 @@
           <div class="focus-card">
             <div class="focus-count">Neues Wort<b>#${sequence}</b></div>
             <div class="focus-main">
-              <div class="focus-word-row"><span class="focus-word">${article}${entry.w}</span><span class="level-stamp">${entry.l}</span></div>
+              <div class="focus-word-row"><span class="focus-word" lang="de">${article}${entry.w}</span><span class="level-stamp">${entry.l}</span></div>
               <div class="focus-def">${entry.d}</div>
               ${extra ? `<div class="focus-extra">${extra}</div>` : ""}
             </div>
@@ -101,7 +105,7 @@
               <button type="button" class="course-star${window.WORTWEG.isStarred(entry.w) ? " on" : ""}" data-focus-star aria-label="Star ${entry.w}" title="Add to review">★</button>
             </div>
           </div>
-          <p class="course-line"></p>
+          <p class="course-line" lang="de"></p>
           <div class="course-line-actions">
             <button type="button" data-line-speak>▶ Hear sentence</button>
             <button type="button" data-line-translate>EN Translation</button>
@@ -130,7 +134,7 @@
 
     const finish = document.createElement("section");
     finish.className = "course-finish";
-    finish.innerHTML = `<b>Geschafft.</b><p>You reached all ${allSegments.length} featured words across 30 chapters. Keep the ones that still feel new in your starred deck.</p>`;
+    finish.innerHTML = `<b lang="de">Geschafft.</b><p>You reached all ${allSegments.length} featured words across 30 chapters. Keep the ones that still feel new in your starred deck.</p>`;
     root.appendChild(finish);
 
     const progressKey = "wortweg-course-progress-v1";
@@ -226,7 +230,7 @@
       entries.forEach(entry => {
         const row = document.createElement("div");
         row.className = "drawer-word";
-        row.innerHTML = `<div class="drawer-word-main"><strong>${reader.displayWord(entry)}</strong><span>${entry.d} · ${entry.l}</span></div><div class="drawer-word-actions"><button type="button" data-drawer-speak aria-label="Pronounce ${entry.w}">🔊</button><button type="button" data-drawer-star class="${window.WORTWEG.isStarred(entry.w) ? "on" : ""}" aria-label="Star ${entry.w}">★</button></div>`;
+        row.innerHTML = `<div class="drawer-word-main"><strong lang="de">${reader.displayWord(entry)}</strong><span>${entry.d} · ${entry.l}</span></div><div class="drawer-word-actions"><button type="button" data-drawer-speak aria-label="Pronounce ${entry.w}">🔊</button><button type="button" data-drawer-star class="${window.WORTWEG.isStarred(entry.w) ? "on" : ""}" aria-label="Star ${entry.w}">★</button></div>`;
         row.querySelector("[data-drawer-speak]").onclick = () => reader.speak(entry.a ? `${entry.a} ${entry.w}` : entry.w);
         row.querySelector("[data-drawer-star]").onclick = event => {
           event.currentTarget.classList.toggle("on", window.WORTWEG.toggleStar(entry.w));

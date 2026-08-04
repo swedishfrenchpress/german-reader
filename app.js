@@ -76,7 +76,7 @@
     const spokenText = entry.a ? `${entry.a} ${entry.w}` : entry.w;
     root.innerHTML = `
       <div>
-        <div class="pop-word">${displayWord(entry)}</div>
+        <div class="pop-word" lang="de">${displayWord(entry)}</div>
         <div class="pop-meta">${detail(entry)}</div>
       </div>
       <div class="pop-actions">

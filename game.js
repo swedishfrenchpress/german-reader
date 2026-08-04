@@ -11,6 +11,7 @@
   const words = pool.sort(() => Math.random() - .5).slice(0, 48);
   if (customWords.size) document.querySelector(".page-head p").textContent = `A focused board from ${custom.label || "your collected words"}. Reveal each answer and mark it honestly.`;
   const quizWord = document.querySelector("[data-quiz-word]");
+  quizWord.lang = "de";
   const quizAnswer = document.querySelector("[data-quiz-answer]");
   const reveal = document.querySelector("[data-reveal]");
   const knownButton = document.querySelector("[data-knew]");
@@ -44,6 +45,7 @@
   words.forEach(entry => {
     const tile = document.createElement("button");
     tile.type = "button"; tile.className = "tile";
+    tile.lang = "de";
     tile.classList.toggle("known", window.WORTWEG.isKnown(entry.w));
     tile.innerHTML = `${entry.w}<small>${entry.l}</small>`;
     tile.onclick = () => pick(entry, tile);
