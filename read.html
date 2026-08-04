@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f3efe5">
-  <title>Ein Tag in Berlin · Wort für Wort</title>
-  <meta name="description" content="An interactive A1 German graded reader with word meanings, grammar details, translation, and audio.">
+  <title>Ein Jahr in Berlin · 30-chapter German reader</title>
+  <meta name="description" content="A 30-chapter graded German course with one featured word per segment, translations, progress tracking, grammar details, and audio.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,15 +15,48 @@
     <div class="nav-links"><a href="read.html" aria-current="page">Read</a><a href="game.html">Play</a><a href="cards.html">Cards</a></div>
   </nav>
   <header class="page-head">
-    <div class="eyebrow" data-story-level>A1 · Beginner</div><h1 data-story-title>Ein Tag in Berlin</h1><p data-story-intro></p>
+    <div class="eyebrow" data-story-level>A1–B1 · 30 chapters</div><h1 data-story-title>Ein Jahr in Berlin</h1><p data-story-intro></p>
   </header>
+  <section class="course-intro" aria-label="How the course works">
+    <p><strong>How it works:</strong> every segment introduces exactly <strong>one featured German word</strong>. Read the example, tap any underlined word for meaning and pronunciation, and keep moving. Your progress saves automatically.</p>
+    <p class="course-hint">Nouns always travel with their article and plural. The yellow <strong>Wörter</strong> button collects vocabulary as you reach it.</p>
+  </section>
+  <section class="course-stats" aria-label="Course progress">
+    <div><b data-unlocked-count>0</b><span>of 90 words reached</span></div>
+    <div><b data-star-count>0</b><span>starred for review</span></div>
+    <div><b data-chapter-count>30</b><span>chapters</span></div>
+    <div><b data-segment-count>90</b><span>learning segments</span></div>
+  </section>
   <div class="reader-tools" aria-label="Reader controls">
     <button class="tool-pill" type="button" data-read-all>▶ Read the whole story</button>
     <button class="tool-pill" type="button" data-toggle-translations>EN Show all translations</button>
     <a class="tool-pill" href="intermediate.html">Try the A2–B1 story →</a>
   </div>
-  <main class="reader" id="story" data-reader="beginner"></main>
+  <section class="resume-banner" data-resume hidden>
+    <div><strong>Willkommen zurück.</strong><span data-resume-copy>Your reading position is saved.</span></div>
+    <div class="resume-actions"><button class="button primary small" type="button" data-resume-go>Continue →</button><button class="resume-dismiss" type="button" data-resume-dismiss aria-label="Dismiss">×</button></div>
+  </section>
+  <details class="course-toc" data-course-toc>
+    <summary><span>Inhalt · Chapters</span><b data-toc-progress>0 / 30</b></summary>
+    <nav data-toc-list aria-label="Course chapters"></nav>
+  </details>
+  <main class="reader course-reader" id="story" data-reader="course"></main>
+  <button class="vocab-fab" type="button" data-vocab-open><span>Wörter</span><b data-vocab-count>0</b></button>
+  <div class="drawer-scrim" data-drawer-scrim></div>
+  <aside class="vocab-drawer" data-vocab-drawer aria-label="Collected vocabulary" aria-hidden="true">
+    <div class="drawer-head"><div><span class="chapter-kicker">Deine Sammlung</span><h2>Wörter</h2></div><button type="button" data-vocab-close aria-label="Close vocabulary">×</button></div>
+    <p class="drawer-copy">Words appear here as you reach them in the course.</p>
+    <details class="drawer-audio">
+      <summary>Audio &amp; reading settings</summary>
+      <div class="audio-setting-row"><label for="voice-select">German voice</label><select id="voice-select" data-voice-select><option>System default</option></select><button type="button" data-voice-test aria-label="Test selected voice">▶</button></div>
+      <div class="audio-setting-row"><label for="speech-rate">Speed</label><input id="speech-rate" data-speech-rate type="range" min="0.6" max="1.2" step="0.05"><output data-speech-rate-value>.85×</output></div>
+      <button class="reset-progress" type="button" data-reset-course>Reset course reading progress</button>
+    </details>
+    <div class="drawer-controls"><input type="search" data-vocab-search placeholder="Search German or English…"><button class="chip" type="button" data-star-filter>★ Starred</button></div>
+    <div class="drawer-list" data-vocab-list></div>
+    <div class="drawer-actions"><button class="button" type="button" data-review-game>Play these words</button><button class="button primary" type="button" data-review-cards>Study as cards</button></div>
+  </aside>
   <footer class="site-footer"><span>Tap underlined words to explore them.</span><a href="license.html">License &amp; attribution</a></footer>
-  <script src="german-data.js"></script><script src="store.js"></script><script src="app.js"></script><script src="reader.js"></script>
+  <script src="german-data.js"></script><script src="course-data.js"></script><script src="store.js"></script><script src="app.js"></script><script src="reader.js"></script>
 </body>
 </html>

@@ -2,7 +2,14 @@
   const board = document.querySelector("[data-word-board]");
   if (!board) return;
   const reader = window.GermanReader;
-  const words = reader.words.filter(entry => entry.l !== "name").sort(() => Math.random() - .5).slice(0, 48);
+  const custom = new URLSearchParams(location.search).get("custom") === "1" ? (() => {
+    try { return JSON.parse(localStorage.getItem("wortweg-custom-set") || "null"); }
+    catch (_) { return null; }
+  })() : null;
+  const customWords = new Set(custom?.words || []);
+  const pool = reader.words.filter(entry => entry.l !== "name" && (!customWords.size || customWords.has(entry.w)));
+  const words = pool.sort(() => Math.random() - .5).slice(0, 48);
+  if (customWords.size) document.querySelector(".page-head p").textContent = `A focused board from ${custom.label || "your collected words"}. Reveal each answer and mark it honestly.`;
   const quizWord = document.querySelector("[data-quiz-word]");
   const quizAnswer = document.querySelector("[data-quiz-answer]");
   const reveal = document.querySelector("[data-reveal]");

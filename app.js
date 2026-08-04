@@ -16,9 +16,12 @@
 
   let activeUtterance = null;
   let germanVoices = [];
+  let speechRate = Number.parseFloat(localStorage.getItem("wortweg-speech-rate") || ".84") || .84;
+  let speechVoice = localStorage.getItem("wortweg-speech-voice") || "";
   const loadVoices = () => {
     if (!("speechSynthesis" in window)) return;
     germanVoices = window.speechSynthesis.getVoices().filter(voice => voice.lang.toLowerCase().startsWith("de"));
+    document.dispatchEvent(new CustomEvent("wortweg-voices"));
   };
   loadVoices();
   if ("speechSynthesis" in window) window.speechSynthesis.addEventListener?.("voiceschanged", loadVoices);
@@ -30,9 +33,9 @@
     activeUtterance = new window.SpeechSynthesisUtterance(text);
     const utterance = activeUtterance;
     utterance.lang = "de-DE";
-    utterance.rate = .84;
+    utterance.rate = speechRate;
     utterance.volume = 1;
-    const voice = germanVoices[0] || synth.getVoices().find(item => item.lang.toLowerCase().startsWith("de"));
+    const voice = germanVoices.find(item => item.name === speechVoice) || germanVoices[0] || synth.getVoices().find(item => item.lang.toLowerCase().startsWith("de"));
     if (voice) utterance.voice = voice;
     utterance.onend = utterance.onerror = () => { if (activeUtterance === utterance) activeUtterance = null; };
     synth.resume();
@@ -94,5 +97,18 @@
     if (event.key === "Escape") closePopover();
   });
 
-  window.GermanReader = { words, lookup, normalize, displayWord, detail, speak, tokenize, showWord, closePopover };
+  const voices = () => [...germanVoices];
+  const getSpeechSettings = () => ({ voice: speechVoice, rate: speechRate });
+  const setSpeechVoice = name => {
+    speechVoice = name || "";
+    try { localStorage.setItem("wortweg-speech-voice", speechVoice); }
+    catch (_) {}
+  };
+  const setSpeechRate = rate => {
+    speechRate = Math.min(1.2, Math.max(.6, Number(rate) || .84));
+    try { localStorage.setItem("wortweg-speech-rate", String(speechRate)); }
+    catch (_) {}
+  };
+
+  window.GermanReader = { words, lookup, normalize, displayWord, detail, speak, tokenize, showWord, closePopover, voices, getSpeechSettings, setSpeechVoice, setSpeechRate };
 })();

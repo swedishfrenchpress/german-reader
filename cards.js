@@ -6,12 +6,25 @@
   const sourceButtons = [...document.querySelectorAll("[data-source]")];
   let levels = new Set(["A1", "A2", "B1"]);
   let source = "all";
+  const custom = new URLSearchParams(location.search).get("custom") === "1" ? (() => {
+    try { return JSON.parse(localStorage.getItem("wortweg-custom-set") || "null"); }
+    catch (_) { return null; }
+  })() : null;
+  const customWords = new Set(custom?.words || []);
+  if (customWords.size) {
+    source = "custom";
+    const customButton = sourceButtons[0];
+    customButton.dataset.source = "custom";
+    customButton.textContent = custom.label || "Course review";
+    sourceButtons.forEach(button => button.classList.toggle("on", button === customButton));
+  }
   let deck = [];
   let index = 0;
   let missed = [];
 
   const buildDeck = () => {
     let next = reader.words.filter(entry => levels.has(entry.l));
+    if (source === "custom") next = next.filter(entry => customWords.has(entry.w));
     if (source === "starred") next = next.filter(entry => window.WORTWEG.isStarred(entry.w));
     if (source === "seen") next = next.filter(entry => window.WORTWEG.isSeen(entry.w));
     deck = next.sort(() => Math.random() - .5);

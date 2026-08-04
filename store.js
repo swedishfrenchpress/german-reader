@@ -48,7 +48,10 @@ window.WORTWEG = (() => {
     },
     onChange(fn) { listeners.add(fn); return () => listeners.delete(fn); },
     exportData() {
-      return { version: 1, app: "wortweg", exported: new Date().toISOString(), starred: [...starred], known: [...known], seen: [...seen] };
+      let course = null;
+      try { course = JSON.parse(localStorage.getItem("wortweg-course-progress-v1") || "null"); }
+      catch (_) {}
+      return { version: 1, app: "wortweg", exported: new Date().toISOString(), starred: [...starred], known: [...known], seen: [...seen], progress: { course } };
     },
     importData(data) {
       if (!data || data.app !== "wortweg") throw new Error("This is not a Wort für Wort backup.");
@@ -56,10 +59,11 @@ window.WORTWEG = (() => {
       (data.known || []).forEach(word => known.add(word));
       (data.seen || []).forEach(word => seen.add(word));
       write(KEYS.starred, starred); write(KEYS.known, known); write(KEYS.seen, seen); notify();
+      if (data.progress?.course) localStorage.setItem("wortweg-course-progress-v1", JSON.stringify(data.progress.course));
     },
     clear() {
       starred = new Set(); known = new Set(); seen = new Set();
-      Object.values(KEYS).forEach(key => localStorage.removeItem(key)); notify();
+      [...Object.values(KEYS), "wortweg-course-progress-v1", "wortweg-custom-set"].forEach(key => localStorage.removeItem(key)); notify();
     }
   };
 })();
