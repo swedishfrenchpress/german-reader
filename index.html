@@ -4,10 +4,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f3efe5">
-  <title>Wort für Wort · Read your way into German</title>
-  <meta name="description" content="Learn practical German through graded stories, a visual word game, native browser audio, and focused flashcards.">
+  <title>German Reader for Beginners (A1–B1) · Wort für Wort</title>
+  <meta name="description" content="Learn German by reading a 30-chapter graded story. Tap any word for its meaning, article, plural, and pronunciation, then review with games and flashcards.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="application-name" content="Wort für Wort">
+  <link rel="canonical" href="https://germanreader.net/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Wort für Wort">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Wort für Wort · Read your way into German">
+  <meta property="og:description" content="A free 30-chapter German reader with tap-to-translate vocabulary, pronunciation, articles, plurals, games, and flashcards.">
+  <meta property="og:url" content="https://germanreader.net/">
+  <meta property="og:image" content="https://germanreader.net/og-image-v2.png">
+  <meta property="og:image:secure_url" content="https://germanreader.net/og-image-v2.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Wort für Wort — read your way into German. 30 chapters, A1–B1, audio and translations.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wort für Wort · Read your way into German">
+  <meta name="twitter:description" content="A free 30-chapter German reader with vocabulary help, pronunciation, games, and flashcards.">
+  <meta name="twitter:image" content="https://germanreader.net/og-image-v2.png">
+  <meta name="twitter:image:alt" content="Wort für Wort — read your way into German">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://germanreader.net/#website",
+        "url": "https://germanreader.net/",
+        "name": "Wort für Wort",
+        "alternateName": "German Reader",
+        "description": "A free interactive graded reader for learning German in context.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "LearningResource",
+        "@id": "https://germanreader.net/#course",
+        "url": "https://germanreader.net/read.html",
+        "name": "Ein Jahr in Berlin",
+        "description": "A 30-chapter interactive German reader with translations, pronunciation, vocabulary, and review tools.",
+        "learningResourceType": ["Graded reader", "Language learning tool"],
+        "educationalLevel": "CEFR A1–B1",
+        "teaches": "German reading comprehension, vocabulary, grammar, and pronunciation",
+        "inLanguage": ["de", "en"],
+        "isAccessibleForFree": true,
+        "image": "https://germanreader.net/og-image-v2.png"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -76,8 +127,8 @@
   </main>
 
   <footer class="site-footer">
-    <span>Wort für Wort · German in context</span>
-    <span>Created by <a href="https://x.com/pourteaux" target="_blank" rel="noopener">@pourteaux</a> · <a href="license.html">Open source</a></span>
+    <span>Created by <a href="https://x.com/eriklocalhost" target="_blank" rel="noopener noreferrer">Erik</a> · forked from <a href="https://x.com/pourteaux" target="_blank" rel="noopener noreferrer">Pourteaux</a></span>
+    <a href="https://github.com/swedishfrenchpress/german-reader" target="_blank" rel="noopener noreferrer">Open source ↗</a>
   </footer>
   <script src="german-data.js"></script>
   <script>document.querySelector('[data-word-total]').textContent = window.GERMAN_WORDS.length;</script>
